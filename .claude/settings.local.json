@@ -102,7 +102,8 @@
       "Bash(git branch *)",
       "Bash(git remote *)",
       "Bash(git config *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(findstr /s /i \"Link Utili\" \"E:\\\\Sito pulizie\\\\*.html\")"
     ]
   }
 }
