@@ -1,0 +1,167 @@
+Ultimo aggiornamento: Giugno 2026
+
+================================================================================
+1. Informazioni Generali e Titolare del Trattamento
+================================================================================
+La presente Informativa sulla Privacy (di seguito, l'"Informativa") è fornita ai sensi degli Artt. 13 e 14 del Regolamento (UE) 2016/679 (General Data Protection Regulation, di seguito "GDPR").
+Titolare del trattamento dei dati personali è:
+  - New Clean Srl
+  - Sede legale: Via Redipuglia 53, 20066 Melzo (MI), Italia
+  - P.IVA: IT 11453660158
+  - Email di contatto: info@newcleanpulizie.it
+  - Telefono: +39 02 95732387 / +39 335 5877501 / +39 327 392 2470
+L'Informativa si applica a tutti i dati personali raccolti tramite il sito web www.esempio-pulizie.it (di seguito, il "Sito") e ai servizi di contatto offerti.
+
+================================================================================
+2. Tipologie di Dati Personali Trattati
+================================================================================
+
+--------------------------------------------------
+Dati forniti dall'utente
+--------------------------------------------------
+Tra le categorie di dati personali che ti chiediamo di fornire, vi sono i seguenti:
+  - Dati di contatto del form: nome e cognome, indirizzo email, numero di telefono, messaggio (inclusi eventuali dettagli sul servizio richiesto e preferenze orarie).
+  - Dati di navigazione: indirizzi IP, dati relativi al dispositivo (tipo di browser, sistema operativo), timestamp delle richieste, metodo utilizzato per richiedere l'oggetto, dimensione del file responses, codice di stato della risposta del server.
+
+--------------------------------------------------
+Dati raccolti automaticamente
+--------------------------------------------------
+Il Sito utilizza cookie e tecnologie simili per raccogliere informazioni sulla navigazione. Per i dettagli specifici, si rimanda alla sezione "Cookie Policy" (Sezione 9).
+
+--------------------------------------------------
+Dati sensibili
+--------------------------------------------------
+Non raccogliamo categorie particolari di dati personali (dati sensibili) ai sensi dell'Art. 9 del GDPR, come dati che rivelano l'origine razziale o etnica, le convinzioni religiose, filosofiche o di mondo, l'appartenenza sindacale, nonché dati genetici, biometrici o relativi alla salute.
+
+================================================================================
+3. Finalità del Trattamento e Base Giuridica
+================================================================================
+I tuoi dati personali sono trattati per le seguenti finalità, con la relativa base giuridica:
+
+FINALITA: Gestione richieste di contatto e preventivi
+DESCRIZIONE: Rispondere alle tue richieste di informazioni, preventivo o assistenza tramite il form di contatto.
+BASE GIURIDICA: Art. 6, par. 1, lett. b) GDPR - Esecuzione di misure precontrattuali
+DATI TRATTATI: Nome, email, telefono, messaggio
+
+FINALITA: Evasione ordini e fornitura servizi
+DESCRIZIONE: Gestire le prenotazioni, organizzare gli interventi di pulizia concordati.
+BASE GIURIDICA: Art. 6, par. 1, lett. b) GDPR - Esecuzione di un contratto
+DATI TRATTATI: Nome, indirizzo, telefono, dati del servizio richiesto
+
+FINALITA: Adempimenti legali e fiscali
+DESCRIZIONE: Obblighi previsti dalla normativa in materia fiscale, contabile e tributaria.
+BASE GIURIDICA: Art. 6, par. 1, lett. c) GDPR - Obbligo legale
+DATI TRATTATI: Dati anagrafici, dati fiscali, dati delle transazioni
+
+FINALITA: Cookie tecnici e funzionalita del Sito
+DESCRIZIONE: Garantire il corretto funzionamento del Sito e ricordare le tue preferenze (es. tema chiaro/scuro).
+BASE GIURIDICA: Art. 6, par. 1, lett. f) GDPR - Legittimo interesse
+DATI TRATTATI: Cookie tecnici
+
+FINALITA: Analisi statistica della navigazione (Analytics)
+DESCRIZIONE: Monitorare l'utilizzo del Sito in forma aggregata e anonima per migliorarne l'esperienza utente.
+BASE GIURIDICA: Art. 6, par. 1, lett. a) GDPR - Consenso
+DATI TRATTATI: Cookie analitici (anonimizzati)
+
+FINALITA: Marcatura strutturata dei dati (JSON-LD / SEO)
+DESCRIZIONE: Informazioni aziendali pubbliche (nome, indirizzo, orari) inserite nel codice del Sito per fini di visibilita sui motori di ricerca.
+BASE GIURIDICA: Art. 6, par. 1, lett. f) GDPR - Legittimo interesse
+DATI TRATTATI: Dati aziendali pubblici (non personali)
+
+================================================================================
+4. Modalità del Trattamento e Sicurezza
+================================================================================
+I tuoi dati personali sono trattati con modalità automatizzate e, ove necessario, manuali, presso la sede del Titolare e in altri luoghi dove le sedi delle unità organizzative delegate al trattamento si trovano.
+Sono adottate adeguate misure di sicurezza tecniche e organizzative per proteggere i tuoi dati da perdita, uso illecito o non corretto e accesso non autorizzato. Le misure includono:
+  - Crittografia HTTPS (SSL/TLS) per la trasmissione dei dati tramite il Sito.
+  - Accessi controllati e registrati ai sistemi che trattano i dati.
+  - Backup regolari dei dati.
+  - Formazione del personale sulle tematiche della privacy e protezione dei dati.
+
+================================================================================
+5. Destinatari dei Dati e Comunicazione
+================================================================================
+I tuoi dati personali non sono diffusi e non sono oggetto di comunicazione a soggetti terzi, salvo che ai seguenti destinatari, nella loro qualità di Responsabili del trattamento o come Incaricati:
+  - Fornitori di servizi di hosting e manutenzione del Sito
+  - Fornitori di servizi email e comunicazione (es. servizi di posta elettronica professionale)
+  - Consulenti legali, fiscali e tributari del Titolare
+  - Instituzioni pubbliche ove obbligatorio per adempimenti di legge
+I Responsabili del trattamento sono selezionati in conformità al GDPR (Art. 28) e trattati nel rispetto delle istruzioni del Titolare.
+
+================================================================================
+6. Trasferimento dei Dati Fuori dall'Unione Europea
+================================================================================
+I tuoi dati personali non sono trasferiti al di fuori dell'Unione Europea o dello Spazio Economico Europeo (SEE). Qualora in futuro tale trasferimento dovesse avvenire, il Titolare garantirà l'applicazione delle adeguate garanzie previste dal GDPR (es. Clausole Contrattuali Standard della Commissione Europea).
+
+================================================================================
+7. Criteri di Conservazione dei Dati
+================================================================================
+I tuoi dati personali sono conservati per il tempo strettamente necessario al perseguimento delle finalità per le quali sono stati raccolti, secondo i seguenti criteri:
+  - Dati del form di contatto (richieste/preventivi): 12 mesi dalla data dell'ultima comunicazione con l'utente.
+  - Dati contrattuali e fiscali: il periodo previsto dagli obblighi di legge (generalmente 10 anni per documenti contabili).
+  - Dati di navigazione e log del server: massimo 7 giorni, in forma aggregata.
+  - Cookie tecnici: fino alla scadenza del termine di validità o alla disattivazione da parte dell'utente.
+  - Cookie analitici (con consenso): fino alla scadenza del termine di validità o alla revoca del consenso.
+Al termine dei suddetti termini, i dati saranno cancellati o resi anonimizzati in modo irreversibile.
+
+================================================================================
+8. Diritti dell'Interessato
+================================================================================
+Ai sensi degli Artt. 15-22 del GDPR, hai il diritto di esercitare i seguenti diritti nei confronti del Titolare:
+  - Diritto di accesso (Art. 15): ottenere la conferma dell'esistenza dei tuoi dati personali e riceverne una copia, nonché informazioni sulle finalità del trattamento, le categorie di dati, i destinatari e il periodo di conservazione.
+  - Diritto di rettifica (Art. 16): richiedere la correzione di dati inesatti o l'integrazione di dati incompleti.
+  - Diritto alla cancellazione ("diritto all'oblio") (Art. 17): richiedere la cancellazione dei tuoi dati quando non sono più necessari rispetto alle finalità per cui sono stati raccolti, oppure quando revochi il consenso (ove il trattamento si basa sul consenso).
+  - Diritto alla limitazione del trattamento (Art. 18): richiedere la limitazione del trattamento nei casi previsti dall'Art. 18 GDPR.
+  - Diritto alla portabilità dei dati (Art. 20): ricevere i tuoi dati in un formato strutturato, di uso comune e leggibile da dispositivo automatico, e richiederne il trasferimento a un altro titolare.
+  - Diritto di opposizione (Art. 21): opporsi al trattamento dei tuoi dati quando si basa sul legittimo interesse del Titolare, inclusi i profili di marketing diretto.
+  - Diritto di revoca del consenso: ove il trattamento si basi sul tuo consenso, hai il diritto di revocarlo in qualsiasi momento, senza che la revoca incida sulla liceità del trattamento basato sul consenso previo.
+Per esercitare i tuoi diritti, puoi inviare una richiesta all'indirizzo email:
+info@newcleanpulizie.it
+Il Titolare si impegna a rispondere entro un termine massimo di 30 giorni dalla ricezione della richiesta.
+Hai inoltre il diritto di proporre reclamo al Garante per la Protezione dei Dati Personali, l'Autorità di controllo italiana, visitando il sito www.garanteprivacy.it o scrivendo a: Garante Privacy, Piazza Venezia 11, 00187 Roma.
+
+================================================================================
+9. Cookie Policy
+================================================================================
+Il Sito utilizza cookie — piccole porzioni di dati memorizzate sul tuo dispositivo — per migliorare la tua esperienza di navigazione e fornire determinate funzionalità.
+
+--------------------------------------------------
+9.1 Cookie Tecnici (necessari)
+--------------------------------------------------
+Sono essenziali per il funzionamento del Sito e non richiedono il tuo consenso. Senza questi cookie, alcune funzionalità del Sito potrebbero non funzionare correttamente.
+  - Cookie di preferenza tema: memorizzano la tua scelta tra modalità chiara e scura (durata: sessione).
+  - Cookie di consenso cookie banner: registrano la tua accettazione o rifiuto della presente informativa sui cookie (durata: 12 mesi).
+
+--------------------------------------------------
+9.2 Cookie di Terze Parti
+--------------------------------------------------
+Il Sito può contenere servizi forniti da soggetti terzi che installano cookie sul tuo dispositivo:
+  - Google Fonts: utilizzato per il rendering dei caratteri tipografici. I font sono caricati direttamente dai server di Google (googleapis.com). Per i dettagli, consulta la privacy policy di Google: https://policies.google.com/privacy.
+  - Google Maps: utilizzato per visualizzare la mappa della sede aziendale. L'uso di Google Maps può comportare il trattamento di dati di navigazione (indirizzo IP). Per i dettagli, consulta: https://policies.google.com/privacy.
+  - Servizi analitici: su tuo esplicito consenso, potrebbero essere attivati servizi di analisi statistica della navigazione del Sito (es. Google Analytics). Tali cookie sono configurati in modalità anonimizzata e non permettono l'identificazione diretta dell'utente.
+
+--------------------------------------------------
+9.3 Come Gestire i Cookie
+--------------------------------------------------
+Puoi gestire le tue preferenze sui cookie in due modi:
+  - Banner dei cookie: al primo accesso al Sito, un banner ti chiede di accettare o rifiutare i cookie non essenziali. Puoi modificare la tua scelta in qualsiasi momento.
+  - Impostazioni del browser: puoi configurare il tuo browser per bloccare o eliminare i cookie. Le istruzioni si trovano nelle pagine di aiuto dei principali browser: Chrome, Firefox, Safari, Edge.
+Nota importante: il rifiuto dei cookie non essenziali non impedisce la navigazione sul Sito, ma potrebbe limitare alcune funzionalità (es. la persistenza della scelta del tema scuro/chiaro).
+
+================================================================================
+10. WhatsApp e Messaggistica
+================================================================================
+Il Sito contiene un link diretto a WhatsApp (wa.me/393273922470) per consentirti di contattarci rapidamente. L'uso di WhatsApp è regolato dalle condizioni e dalla privacy policy del fornitore del servizio (Meta Platforms, Inc.). Ti invitiamo a consultare la loro informativa sulla privacy: https://www.whatsapp.com/legal/privacy-policy.
+
+================================================================================
+11. Modifiche all'Informativa sulla Privacy
+================================================================================
+La presente Informativa può essere aggiornata per modifiche normative, organizzative o del servizio. Ti invitiamo a consultarla periodicamente. Qualsiasi modifica entrerà in vigore al momento della pubblicazione sul Sito. L'eventuale modifica sarà segnalata con un nuovo "Ultimo aggiornamento" indicato all'inizio dell'Informativa.
+
+================================================================================
+12. Contatti
+================================================================================
+Per qualsiasi domanda o richiesta relativa alla presente Informativa sulla Privacy, puoi contattare il Titolare del trattamento ai seguenti recapiti:
+  - Email: info@newcleanpulizie.it
+  - Telefono: +39 02 95732387 / +39 335 5877501 / +39 327 392 2470
+  - Sede: Via Redipuglia 53, 20066 Melzo (MI), Italia
