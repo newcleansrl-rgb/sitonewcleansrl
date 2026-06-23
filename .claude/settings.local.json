@@ -105,7 +105,9 @@
       "Bash(git push *)",
       "Bash(findstr /s /i \"Link Utili\" \"E:\\\\Sito pulizie\\\\*.html\")",
       "Bash(git checkout *)",
-      "Bash(git reset *)"
+      "Bash(git reset *)",
+      "Bash(pkill -f \"python -m http.server\")",
+      "Bash(xargs grep -ohP '\\\\brecruit-banner\\\\b')"
     ]
   }
 }

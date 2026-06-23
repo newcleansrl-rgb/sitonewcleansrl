@@ -456,4 +456,53 @@
     });
   }
 
+  /* ============================================
+     10. COOKIE POLICY MODAL
+     ============================================ */
+  var cookiePolicyModal = document.getElementById('cookie-policy-modal');
+  var cookiePolicyClose = document.getElementById('cookie-policy-close');
+  var cookiePolicyOverlay = document.getElementById('cookie-policy-overlay');
+
+  function openCookiePolicy() {
+    if (cookiePolicyModal) {
+      cookiePolicyModal.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+      // Focus sul pulsante di chiusura per accessibilità
+      setTimeout(function () {
+        if (cookiePolicyClose) cookiePolicyClose.focus();
+      }, 350);
+    }
+  }
+
+  function closeCookiePolicy() {
+    if (cookiePolicyModal) {
+      cookiePolicyModal.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+  }
+
+  // Gestione click su tutti i link/bottoni con classe .cookie-policy-trigger
+  var cookiePolicyTriggers = document.querySelectorAll('.cookie-policy-trigger');
+  cookiePolicyTriggers.forEach(function (trigger) {
+    trigger.addEventListener('click', function (e) {
+      e.preventDefault();
+      openCookiePolicy();
+    });
+  });
+
+  if (cookiePolicyClose) {
+    cookiePolicyClose.addEventListener('click', closeCookiePolicy);
+  }
+
+  if (cookiePolicyOverlay) {
+    cookiePolicyOverlay.addEventListener('click', closeCookiePolicy);
+  }
+
+  // Chiudi con tasto Escape
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && cookiePolicyModal && cookiePolicyModal.classList.contains('is-open')) {
+      closeCookiePolicy();
+    }
+  });
+
 })();
