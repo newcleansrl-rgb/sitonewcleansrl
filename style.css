@@ -128,10 +128,6 @@
   background-color: var(--color-gray-100);
 }
 
-[data-theme="dark"] .cookie-banner {
-  background-color: #0a1018;
-}
-
 [data-theme="dark"] .skip-link {
   background-color: var(--color-primary-dark);
 }
@@ -1816,65 +1812,6 @@ select.form-input {
 }
 
 /* ============================================
-   COOKIE BANNER (nuovo)
-   ============================================ */
-.cookie-banner {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 950;
-  background-color: var(--color-gray-800);
-  color: rgba(255,255,255,0.9);
-  padding: var(--space-lg) var(--space-lg);
-  transform: translateY(100%);
-  transition: transform 400ms ease;
-}
-
-.cookie-banner.is-visible {
-  transform: translateY(0);
-}
-
-.cookie-banner__content {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-lg);
-  flex-wrap: wrap;
-}
-
-.cookie-banner__content p {
-  color: rgba(255,255,255,0.85);
-  font-size: 0.9rem;
-  max-width: none;
-  flex: 1 1 auto;
-}
-
-.cookie-banner__content a {
-  color: var(--color-accent-light);
-  text-decoration: underline;
-}
-
-.cookie-banner__actions {
-  display: flex;
-  gap: var(--space-sm);
-  flex-shrink: 0;
-}
-
-.cookie-banner__reject {
-  border-color: rgba(255,255,255,0.3);
-  color: rgba(255,255,255,0.8);
-}
-
-.cookie-banner__reject:hover {
-  background-color: rgba(255,255,255,0.1);
-  border-color: rgba(255,255,255,0.5);
-  color: var(--color-white);
-}
-
-/* ============================================
    SCROLL ANIMATIONS (nuovo)
    ============================================ */
 .fade-in {
@@ -1884,10 +1821,6 @@ select.form-input {
 }
 
 .fade-in.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* ============================================
    RESPONSIVE - Tablet (768px+)
    ============================================ */
@@ -1942,10 +1875,6 @@ select.form-input {
     grid-template-columns: 3fr 2fr;
   }
 
-  /* Cookie Banner */
-  .cookie-banner__content p {
-    font-size: 0.95rem;
-  }
 
   /* Recruit Banner - Tablet */
   .recruit-banner__inner {
@@ -2018,9 +1947,6 @@ select.form-input {
 
   /* How We Work */
   .how-we-work__steps {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   /* About */
   .about__inner {
     grid-template-columns: 1fr 1fr;
@@ -2077,10 +2003,4 @@ select.form-input {
 
   .fade-in {
     opacity: 1;
-    transform: none;
-  }
-
-  .cookie-banner {
-    transform: none;
-  }
 }
