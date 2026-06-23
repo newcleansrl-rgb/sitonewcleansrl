@@ -1,1 +1,19 @@
+# Environment & config
 .env.graphify
+CLAUDE.md
+
+# Claude AI
+.claude/
+
+# Playwright MCP
+.playwright-mcp/
+
+# Graphify output
+graphify-out/
+
+# Screenshots
+screenshots/
+
+# Istruzioni locali (non vanno su GitHub)
+ISTRUZIONI_EMAILJS*
+ISTRUZIONI_GIT*
