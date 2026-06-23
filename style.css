@@ -1968,6 +1968,20 @@ select.form-input {
     grid-template-columns: 3fr 2fr;
   }
 
+  /* About - Tablet+ */
+  .about__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .about__content {
+    padding-left: var(--space-lg);
+  }
+
+  .about__features {
+    grid-template-columns: 1fr 1fr;
+  }
+
 
   /* Recruit Banner - Tablet */
   .recruit-banner__inner {
@@ -2040,18 +2054,7 @@ select.form-input {
 
   /* How We Work */
   .how-we-work__steps {
-  /* About */
-  .about__inner {
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-2xl);
-  }
-
-  .about__content {
-    padding-left: var(--space-lg);
-  }
-
-  .about__features {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   /* FAQ */
