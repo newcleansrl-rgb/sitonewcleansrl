@@ -1,7 +1,7 @@
 /**
  * script.js - Impresa di Pulizie
  * Interazioni: menu mobile, smooth scroll, form validazione, contatori,
- * FAQ accordion, scroll spy, animazioni on-scroll, back-to-top.
+ * FAQ accordion, scroll spy, animazioni on-scroll, cookie banner, back-to-top.
  */
 
 (function () {
@@ -176,6 +176,39 @@
     backToTop.addEventListener('click', function () {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+  }
+
+  /* ============================================
+     7. COOKIE BANNER
+     ============================================ */
+  var cookieBanner = document.getElementById('cookie-banner');
+  var cookieAccept = document.getElementById('cookie-accept');
+  var cookieReject = document.getElementById('cookie-reject');
+
+  if (cookieBanner) {
+    // Controlla se l'utente ha già fatto una scelta
+    if (!localStorage.getItem('cookie-consent')) {
+      // Mostra il banner dopo un breve ritardo
+      setTimeout(function () {
+        cookieBanner.classList.add('is-visible');
+      }, 1000);
+    }
+
+    if (cookieAccept) {
+      cookieAccept.addEventListener('click', function () {
+        localStorage.setItem('cookie-consent', 'accepted');
+        cookieBanner.classList.remove('is-visible');
+        // Qui puoi caricare script di terze parti (analytics, ecc.)
+      });
+    }
+
+    if (cookieReject) {
+      cookieReject.addEventListener('click', function () {
+        localStorage.setItem('cookie-consent', 'rejected');
+        cookieBanner.classList.remove('is-visible');
+        // Non carica script di terze parti
+      });
+    }
   }
 
 
