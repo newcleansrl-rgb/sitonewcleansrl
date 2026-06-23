@@ -422,8 +422,8 @@
       emailjs.send("service_21ve4rd", "template_x2m5bbf", {
         company_name: data.clientName,
         company_email: data.clientEmail,
-        average_score: data.averageScore + '/10',
-        total_score: data.totalScore + '/90',
+        average_score: data.averageScore,
+        total_score: data.totalScore,
         scores_detail: scoresSummary,
         review: data.review,
         consent: data.consentToPublish ? 'Acconsentito' : 'Non acconsentito',

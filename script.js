@@ -218,9 +218,9 @@
   var form = document.getElementById('contact-form');
   if (form) {
     // --- EmailJS Config Placeholder ---
-    var EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';    // <-- INSERISCI LA TUA PUBLIC KEY
-    var EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';     // <-- INSERISCI IL TUO SERVICE ID
-    var EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';   // <-- INSERISCI IL TUO TEMPLATE ID
+    var EMAILJS_PUBLIC_KEY = 'ohQ2pBkRhgzxfiY02';
+    var EMAILJS_SERVICE_ID = 'service_21ve4rd';
+    var EMAILJS_TEMPLATE_ID = 'template_iygvimz';
 
     // Carica SDK EmailJS in modo asincrono (non bloccante)
     function loadEmailJS() {

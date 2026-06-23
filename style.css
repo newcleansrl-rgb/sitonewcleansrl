@@ -104,9 +104,24 @@
 
 [data-theme="dark"] .form-input,
 [data-theme="dark"] .form-textarea {
-  background-color: var(--color-off-white);
+  background-color: #ffffff;
   border-color: var(--color-gray-300);
-  color: var(--color-text);
+  color: #1a2332;
+}
+
+[data-theme="dark"] select.form-input {
+  color: #1a2332;
+}
+
+[data-theme="dark"] select.form-input option {
+  background-color: #ffffff;
+  color: #1a2332;
+}
+
+/* Placeholder scuro per leggibilità su sfondo bianco in dark mode */
+[data-theme="dark"] .form-input::placeholder,
+[data-theme="dark"] .form-textarea::placeholder {
+  color: #4a5568 !important;
 }
 
 [data-theme="dark"] .map-placeholder {
