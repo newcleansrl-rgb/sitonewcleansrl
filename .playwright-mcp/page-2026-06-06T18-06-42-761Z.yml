@@ -1,0 +1,391 @@
+- generic [active] [ref=e1]:
+  - link "Vai al contenuto principale" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Torna alla homepage" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Logo azienda pulizie" [ref=e6]
+      - navigation "Navigazione principale" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Servizi" [ref=e10] [cursor=pointer]:
+              - /url: index.html#servizi
+          - listitem [ref=e11]:
+            - link "Come Lavoriamo" [ref=e12] [cursor=pointer]:
+              - /url: index.html#come-lavoriamo
+          - listitem [ref=e13]:
+            - link "Chi Siamo" [ref=e14] [cursor=pointer]:
+              - /url: index.html#chi-siamo
+          - listitem [ref=e15]:
+            - link "FAQ" [ref=e16] [cursor=pointer]:
+              - /url: index.html#faq
+          - listitem [ref=e17]:
+            - link "Recensioni" [ref=e18] [cursor=pointer]:
+              - /url: index.html#testimonianze
+          - listitem [ref=e19]:
+            - link "Contatti" [ref=e20] [cursor=pointer]:
+              - /url: contatti.html
+      - link "Preventivo Gratuito" [ref=e21] [cursor=pointer]:
+        - /url: contatti.html
+      - button "Cambia tema chiaro/scuro" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ☀
+        - generic [ref=e24]: ☾
+  - banner "Intestazione pagina privacy" [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Privacy Policy" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Informativa ai sensi del Regolamento UE 2016/679 (GDPR)
+  - main [ref=e29]:
+    - generic [ref=e31]:
+      - paragraph [ref=e32]: "Ultimo aggiornamento: Giugno 2026"
+      - generic [ref=e33]:
+        - heading "1. Informazioni Generali e Titolare del Trattamento" [level=2] [ref=e34]
+        - paragraph [ref=e35]:
+          - text: La presente Informativa sulla Privacy (di seguito, l'
+          - strong [ref=e36]: "\"Informativa\""
+          - text: ) è fornita ai sensi degli Artt. 13 e 14 del Regolamento (UE) 2016/679 (General Data Protection Regulation, di seguito "
+          - strong [ref=e37]: GDPR
+          - text: "\")."
+        - paragraph [ref=e38]: "Titolare del trattamento dei dati personali è:"
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - strong [ref=e41]: New Clean Srl
+          - listitem [ref=e42]: "Sede legale: Via Redipuglia 53, 20066 Melzo (MI), Italia"
+          - listitem [ref=e43]: "P.IVA: IT 12345678901"
+          - listitem [ref=e44]:
+            - text: "Email di contatto:"
+            - link "info@newcleanpulizie.it" [ref=e45] [cursor=pointer]:
+              - /url: mailto:info@newcleanpulizie.it
+          - listitem [ref=e46]: "Telefono: +39 02 95732387 / +39 335 5877501 / +39 327 392 2470"
+        - paragraph [ref=e47]:
+          - text: L'Informativa si applica a tutti i dati personali raccolti tramite il sito web
+          - strong [ref=e48]: www.esempio-pulizie.it
+          - text: (di seguito, il "
+          - strong [ref=e49]: Sito
+          - text: "\") e ai servizi di contatto offerti."
+      - generic [ref=e50]:
+        - heading "2. Tipologie di Dati Personali Trattati" [level=2] [ref=e51]
+        - heading "Dati forniti dall'utente" [level=3] [ref=e52]
+        - paragraph [ref=e53]: "Tra le categorie di dati personali che ti chiediamo di fornire, vi sono i seguenti:"
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - strong [ref=e56]: "Dati di contatto del form:"
+            - text: nome e cognome, indirizzo email, numero di telefono, messaggio (inclusi eventuali dettagli sul servizio richiesto e preferenze orarie).
+          - listitem [ref=e57]:
+            - strong [ref=e58]: "Dati di navigazione:"
+            - text: indirizzi IP, dati relativi al dispositivo (tipo di browser, sistema operativo), timestamp delle richieste, metodo utilizzato per richiedere l'oggetto, dimensione del file responses, codice di stato della risposta del server.
+        - heading "Dati raccolti automaticamente" [level=3] [ref=e59]
+        - paragraph [ref=e60]:
+          - text: Il Sito utilizza cookie e tecnologie simili per raccogliere informazioni sulla navigazione. Per i dettagli specifici, si rimanda alla sezione
+          - strong [ref=e61]: "\"Cookie Policy\""
+          - text: (Sezione 9).
+        - heading "Dati sensibili" [level=3] [ref=e62]
+        - paragraph [ref=e63]:
+          - strong [ref=e64]: Non raccogliamo categorie particolari di dati personali
+          - text: (dati sensibili) ai sensi dell'Art. 9 del GDPR, come dati che rivelano l'origine razziale o etnica, le convinzioni religiose, filosofiche o di mondo, l'appartenenza sindacale, nonché dati genetici, biometrici o relativi alla salute.
+      - generic [ref=e65]:
+        - heading "3. Finalità del Trattamento e Base Giuridica" [level=2] [ref=e66]
+        - paragraph [ref=e67]: "I tuoi dati personali sono trattati per le seguenti finalità, con la relativa base giuridica:"
+        - table [ref=e68]:
+          - rowgroup [ref=e69]:
+            - row "Finalità Base Giuridica Dati Trattati" [ref=e70]:
+              - columnheader "Finalità" [ref=e71]
+              - columnheader "Base Giuridica" [ref=e72]
+              - columnheader "Dati Trattati" [ref=e73]
+          - rowgroup [ref=e74]:
+            - row "Gestione richieste di contatto e preventivi Rispondere alle tue richieste di informazioni, preventivo o assistenza tramite il form di contatto. Art. 6, par. 1, lett. b) GDPR — Esecuzione di misure precontrattuali Nome, email, telefono, messaggio" [ref=e75]:
+              - cell "Gestione richieste di contatto e preventivi Rispondere alle tue richieste di informazioni, preventivo o assistenza tramite il form di contatto." [ref=e76]:
+                - strong [ref=e77]: Gestione richieste di contatto e preventivi
+                - text: Rispondere alle tue richieste di informazioni, preventivo o assistenza tramite il form di contatto.
+              - cell "Art. 6, par. 1, lett. b) GDPR — Esecuzione di misure precontrattuali" [ref=e78]
+              - cell "Nome, email, telefono, messaggio" [ref=e79]
+            - row "Evasione ordini e fornitura servizi Gestire le prenotazioni, organizzare gli interventi di pulizia concordati. Art. 6, par. 1, lett. b) GDPR — Esecuzione di un contratto Nome, indirizzo, telefono, dati del servizio richiesto" [ref=e80]:
+              - cell "Evasione ordini e fornitura servizi Gestire le prenotazioni, organizzare gli interventi di pulizia concordati." [ref=e81]:
+                - strong [ref=e82]: Evasione ordini e fornitura servizi
+                - text: Gestire le prenotazioni, organizzare gli interventi di pulizia concordati.
+              - cell "Art. 6, par. 1, lett. b) GDPR — Esecuzione di un contratto" [ref=e83]
+              - cell "Nome, indirizzo, telefono, dati del servizio richiesto" [ref=e84]
+            - row "Adempimenti legali e fiscali Obblighi previsti dalla normativa in materia fiscale, contabile e tributaria. Art. 6, par. 1, lett. c) GDPR — Obbligo legale Dati anagrafici, dati fiscali, dati delle transazioni" [ref=e85]:
+              - cell "Adempimenti legali e fiscali Obblighi previsti dalla normativa in materia fiscale, contabile e tributaria." [ref=e86]:
+                - strong [ref=e87]: Adempimenti legali e fiscali
+                - text: Obblighi previsti dalla normativa in materia fiscale, contabile e tributaria.
+              - cell "Art. 6, par. 1, lett. c) GDPR — Obbligo legale" [ref=e88]
+              - cell "Dati anagrafici, dati fiscali, dati delle transazioni" [ref=e89]
+            - row "Cookie tecnici e funzionalità del Sito Garantire il corretto funzionamento del Sito e ricordare le tue preferenze (es. tema chiaro/scuro). Art. 6, par. 1, lett. f) GDPR — Legittimo interesse Cookie tecnici" [ref=e90]:
+              - cell "Cookie tecnici e funzionalità del Sito Garantire il corretto funzionamento del Sito e ricordare le tue preferenze (es. tema chiaro/scuro)." [ref=e91]:
+                - strong [ref=e92]: Cookie tecnici e funzionalità del Sito
+                - text: Garantire il corretto funzionamento del Sito e ricordare le tue preferenze (es. tema chiaro/scuro).
+              - cell "Art. 6, par. 1, lett. f) GDPR — Legittimo interesse" [ref=e93]
+              - cell "Cookie tecnici" [ref=e94]
+            - row "Analisi statistica della navigazione (Analytics) Monitorare l'utilizzo del Sito in forma aggregata e anonima per migliorarne l'esperienza utente. Art. 6, par. 1, lett. a) GDPR — Consenso Cookie analitici (anonimizzati)" [ref=e95]:
+              - cell "Analisi statistica della navigazione (Analytics) Monitorare l'utilizzo del Sito in forma aggregata e anonima per migliorarne l'esperienza utente." [ref=e96]:
+                - strong [ref=e97]: Analisi statistica della navigazione (Analytics)
+                - text: Monitorare l'utilizzo del Sito in forma aggregata e anonima per migliorarne l'esperienza utente.
+              - cell "Art. 6, par. 1, lett. a) GDPR — Consenso" [ref=e98]
+              - cell "Cookie analitici (anonimizzati)" [ref=e99]
+            - row "Marcatura strutturata dei dati (JSON-LD / SEO) Informazioni aziendali pubbliche (nome, indirizzo, orari) inserite nel codice del Sito per fini di visibilità sui motori di ricerca. Art. 6, par. 1, lett. f) GDPR — Legittimo interesse Dati aziendali pubblici (non personali)" [ref=e100]:
+              - cell "Marcatura strutturata dei dati (JSON-LD / SEO) Informazioni aziendali pubbliche (nome, indirizzo, orari) inserite nel codice del Sito per fini di visibilità sui motori di ricerca." [ref=e101]:
+                - strong [ref=e102]: Marcatura strutturata dei dati (JSON-LD / SEO)
+                - text: Informazioni aziendali pubbliche (nome, indirizzo, orari) inserite nel codice del Sito per fini di visibilità sui motori di ricerca.
+              - cell "Art. 6, par. 1, lett. f) GDPR — Legittimo interesse" [ref=e103]
+              - cell "Dati aziendali pubblici (non personali)" [ref=e104]
+      - generic [ref=e105]:
+        - heading "4. Modalità del Trattamento e Sicurezza" [level=2] [ref=e106]
+        - paragraph [ref=e107]: I tuoi dati personali sono trattati con modalità automatizzate e, ove necessario, manuali, presso la sede del Titolare e in altri luoghi dove le sedi delle unità organizzative delegate al trattamento si trovano.
+        - paragraph [ref=e108]: "Sono adottate adeguate misure di sicurezza tecniche e organizzative per proteggere i tuoi dati da perdita, uso illecito o non corretto e accesso non autorizzato. Le misure includono:"
+        - list [ref=e109]:
+          - listitem [ref=e110]: Crittografia HTTPS (SSL/TLS) per la trasmissione dei dati tramite il Sito.
+          - listitem [ref=e111]: Accessi controllati e registrati ai sistemi che trattano i dati.
+          - listitem [ref=e112]: Backup regolari dei dati.
+          - listitem [ref=e113]: Formazione del personale sulle tematiche della privacy e protezione dei dati.
+      - generic [ref=e114]:
+        - heading "5. Destinatari dei Dati e Comunicazione" [level=2] [ref=e115]
+        - paragraph [ref=e116]:
+          - text: I tuoi dati personali non sono diffusi e non sono oggetto di comunicazione a soggetti terzi, salvo che ai seguenti destinatari, nella loro qualità di
+          - strong [ref=e117]: Responsabili del trattamento
+          - text: o come
+          - strong [ref=e118]: Incaricati
+          - text: ":"
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - strong [ref=e121]: Fornitori di servizi di hosting e manutenzione del Sito
+          - listitem [ref=e122]:
+            - strong [ref=e123]: Fornitori di servizi email e comunicazione
+            - text: (es. servizi di posta elettronica professionale)
+          - listitem [ref=e124]:
+            - strong [ref=e125]: Consulenti legali, fiscali e tributari
+            - text: del Titolare
+          - listitem [ref=e126]:
+            - strong [ref=e127]: Instituzioni pubbliche
+            - text: ove obbligatorio per adempimenti di legge
+        - paragraph [ref=e128]: I Responsabili del trattamento sono selezionati in conformità al GDPR (Art. 28) e trattati nel rispetto delle istruzioni del Titolare.
+      - generic [ref=e129]:
+        - heading "6. Trasferimento dei Dati Fuori dall'Unione Europea" [level=2] [ref=e130]
+        - paragraph [ref=e131]:
+          - text: I tuoi dati personali
+          - strong [ref=e132]: non sono trasferiti al di fuori dell'Unione Europea
+          - text: o dello Spazio Economico Europeo (SEE). Qualora in futuro tale trasferimento dovesse avvenire, il Titolare garantirà l'applicazione delle adeguate garanzie previste dal GDPR (es. Clausole Contrattuali Standard della Commissione Europea).
+      - generic [ref=e133]:
+        - heading "7. Criteri di Conservazione dei Dati" [level=2] [ref=e134]
+        - paragraph [ref=e135]: "I tuoi dati personali sono conservati per il tempo strettamente necessario al perseguimento delle finalità per le quali sono stati raccolti, secondo i seguenti criteri:"
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - strong [ref=e138]: "Dati del form di contatto (richieste/preventivi):"
+            - text: 12 mesi dalla data dell'ultima comunicazione con l'utente.
+          - listitem [ref=e139]:
+            - strong [ref=e140]: "Dati contrattuali e fiscali:"
+            - text: il periodo previsto dagli obblighi di legge (generalmente 10 anni per documenti contabili).
+          - listitem [ref=e141]:
+            - strong [ref=e142]: "Dati di navigazione e log del server:"
+            - text: massimo 7 giorni, in forma aggregata.
+          - listitem [ref=e143]:
+            - strong [ref=e144]: "Cookie tecnici:"
+            - text: fino alla scadenza del termine di validità o alla disattivazione da parte dell'utente.
+          - listitem [ref=e145]:
+            - strong [ref=e146]: "Cookie analitici (con consenso):"
+            - text: fino alla scadenza del termine di validità o alla revoca del consenso.
+        - paragraph [ref=e147]: Al termine dei suddetti termini, i dati saranno cancellati o resi anonimizzati in modo irreversibile.
+      - generic [ref=e148]:
+        - heading "8. Diritti dell'Interessato" [level=2] [ref=e149]
+        - paragraph [ref=e150]: "Ai sensi degli Artt. 15-22 del GDPR, hai il diritto di esercitare i seguenti diritti nei confronti del Titolare:"
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - strong [ref=e153]: "Diritto di accesso (Art. 15):"
+            - text: ottenere la conferma dell'esistenza dei tuoi dati personali e riceverne una copia, nonché informazioni sulle finalità del trattamento, le categorie di dati, i destinatari e il periodo di conservazione.
+          - listitem [ref=e154]:
+            - strong [ref=e155]: "Diritto di rettifica (Art. 16):"
+            - text: richiedere la correzione di dati inesatti o l'integrazione di dati incompleti.
+          - listitem [ref=e156]:
+            - strong [ref=e157]: "Diritto alla cancellazione (\"diritto all'oblio\") (Art. 17):"
+            - text: richiedere la cancellazione dei tuoi dati quando non sono più necessari rispetto alle finalità per cui sono stati raccolti, oppure quando revochi il consenso (ove il trattamento si basa sul consenso).
+          - listitem [ref=e158]:
+            - strong [ref=e159]: "Diritto alla limitazione del trattamento (Art. 18):"
+            - text: richiedere la limitazione del trattamento nei casi previsti dall'Art. 18 GDPR.
+          - listitem [ref=e160]:
+            - strong [ref=e161]: "Diritto alla portabilità dei dati (Art. 20):"
+            - text: ricevere i tuoi dati in un formato strutturato, di uso comune e leggibile da dispositivo automatico, e richiederne il trasferimento a un altro titolare.
+          - listitem [ref=e162]:
+            - strong [ref=e163]: "Diritto di opposizione (Art. 21):"
+            - text: opporsi al trattamento dei tuoi dati quando si basa sul legittimo interesse del Titolare, inclusi i profili di marketing diretto.
+          - listitem [ref=e164]:
+            - strong [ref=e165]: "Diritto di revoca del consenso:"
+            - text: ove il trattamento si basi sul tuo consenso, hai il diritto di revocarlo in qualsiasi momento, senza che la revoca incida sulla liceità del trattamento basato sul consenso previo.
+        - paragraph [ref=e166]: "Per esercitare i tuoi diritti, puoi inviare una richiesta all'indirizzo email:"
+        - paragraph [ref=e167]:
+          - link "info@newcleanpulizie.it" [ref=e168] [cursor=pointer]:
+            - /url: mailto:info@newcleanpulizie.it
+            - strong [ref=e169]: info@newcleanpulizie.it
+        - paragraph [ref=e170]:
+          - text: Il Titolare si impegna a rispondere entro un termine massimo di
+          - strong [ref=e171]: 30 giorni
+          - text: dalla ricezione della richiesta.
+        - paragraph [ref=e172]:
+          - text: Hai inoltre il diritto di proporre
+          - strong [ref=e173]: reclamo al Garante per la Protezione dei Dati Personali
+          - text: ", l'Autorità di controllo italiana, visitando il sito"
+          - link "www.garanteprivacy.it" [ref=e174] [cursor=pointer]:
+            - /url: https://www.garanteprivacy.it
+          - text: "o scrivendo a:"
+          - emphasis [ref=e175]: Garante Privacy, Piazza Venezia 11, 00187 Roma
+          - text: .
+      - generic [ref=e176]:
+        - heading "9. Cookie Policy" [level=2] [ref=e177]
+        - paragraph [ref=e178]: Il Sito utilizza cookie — piccole porzioni di dati memorizzate sul tuo dispositivo — per migliorare la tua esperienza di navigazione e fornire determinate funzionalità.
+        - heading "9.1 Cookie Tecnici (necessari)" [level=3] [ref=e179]
+        - paragraph [ref=e180]: Sono essenziali per il funzionamento del Sito e non richiedono il tuo consenso. Senza questi cookie, alcune funzionalità del Sito potrebbero non funzionare correttamente.
+        - list [ref=e181]:
+          - listitem [ref=e182]:
+            - strong [ref=e183]: "Cookie di preferenza tema:"
+            - text: "memorizzano la tua scelta tra modalità chiara e scura (durata: sessione)."
+          - listitem [ref=e184]:
+            - strong [ref=e185]: "Cookie di consenso cookie banner:"
+            - text: "registrano la tua accettazione o rifiuto della presente informativa sui cookie (durata: 12 mesi)."
+        - heading "9.2 Cookie di Terze Parti" [level=3] [ref=e186]
+        - paragraph [ref=e187]: "Il Sito può contenere servizi forniti da soggetti terzi che installano cookie sul tuo dispositivo:"
+        - list [ref=e188]:
+          - listitem [ref=e189]:
+            - strong [ref=e190]: "Google Fonts:"
+            - text: "utilizzato per il rendering dei caratteri tipografici. I font sono caricati direttamente dai server di Google (googleapis.com). Per i dettagli, consulta la privacy policy di Google:"
+            - link "https://policies.google.com/privacy" [ref=e191] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: .
+          - listitem [ref=e192]:
+            - strong [ref=e193]: "Google Maps:"
+            - text: "utilizzato per visualizzare la mappa della sede aziendale. L'uso di Google Maps può comportare il trattamento di dati di navigazione (indirizzo IP). Per i dettagli, consulta:"
+            - link "https://policies.google.com/privacy" [ref=e194] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: .
+          - listitem [ref=e195]:
+            - strong [ref=e196]: "Servizi analitici:"
+            - text: su tuo esplicito consenso, potrebbero essere attivati servizi di analisi statistica della navigazione del Sito (es. Google Analytics). Tali cookie sono configurati in modalità anonimizzata e non permettono l'identificazione diretta dell'utente.
+        - heading "9.3 Come Gestire i Cookie" [level=3] [ref=e197]
+        - paragraph [ref=e198]: "Puoi gestire le tue preferenze sui cookie in due modi:"
+        - list [ref=e199]:
+          - listitem [ref=e200]:
+            - strong [ref=e201]: "Banner dei cookie:"
+            - text: al primo accesso al Sito, un banner ti chiede di accettare o rifiutare i cookie non essenziali. Puoi modificare la tua scelta in qualsiasi momento.
+          - listitem [ref=e202]:
+            - strong [ref=e203]: "Impostazioni del browser:"
+            - text: "puoi configurare il tuo browser per bloccare o eliminare i cookie. Le istruzioni si trovano nelle pagine di aiuto dei principali browser: Chrome, Firefox, Safari, Edge."
+        - paragraph [ref=e204]:
+          - strong [ref=e205]: "Nota importante:"
+          - text: il rifiuto dei cookie non essenziali non impedisce la navigazione sul Sito, ma potrebbe limitare alcune funzionalità (es. la persistenza della scelta del tema scuro/chiaro).
+      - generic [ref=e206]:
+        - heading "10. WhatsApp e Messaggistica" [level=2] [ref=e207]
+        - paragraph [ref=e208]:
+          - text: Il Sito contiene un link diretto a WhatsApp (
+          - link "wa.me/393273922470" [ref=e209] [cursor=pointer]:
+            - /url: https://wa.me/393273922470
+          - text: ") per consentirti di contattarci rapidamente. L'uso di WhatsApp è regolato dalle condizioni e dalla privacy policy del fornitore del servizio (Meta Platforms, Inc.). Ti invitiamo a consultare la loro informativa sulla privacy:"
+          - link "https://www.whatsapp.com/legal/privacy-policy" [ref=e210] [cursor=pointer]:
+            - /url: https://www.whatsapp.com/legal/privacy-policy
+          - text: .
+      - generic [ref=e211]:
+        - heading "11. Modifiche all'Informativa sulla Privacy" [level=2] [ref=e212]
+        - paragraph [ref=e213]: La presente Informativa può essere aggiornata per modifiche normative, organizzative o del servizio. Ti invitiamo a consultarla periodicamente. Qualsiasi modifica entrerà in vigore al momento della pubblicazione sul Sito. L'eventuale modifica sarà segnalata con un nuovo "Ultimo aggiornamento" indicato all'inizio dell'Informativa.
+      - generic [ref=e214]:
+        - heading "12. Contatti" [level=2] [ref=e215]
+        - paragraph [ref=e216]: "Per qualsiasi domanda o richiesta relativa alla presente Informativa sulla Privacy, puoi contattare il Titolare del trattamento ai seguenti recapiti:"
+        - list [ref=e217]:
+          - listitem [ref=e218]:
+            - strong [ref=e219]: "Email:"
+            - link "info@newcleanpulizie.it" [ref=e220] [cursor=pointer]:
+              - /url: mailto:info@newcleanpulizie.it
+          - listitem [ref=e221]:
+            - strong [ref=e222]: "Telefono:"
+            - text: +39 02 95732387 / +39 335 5877501 / +39 327 392 2470
+          - listitem [ref=e223]:
+            - strong [ref=e224]: "Sede:"
+            - text: Via Redipuglia 53, 20066 Melzo (MI), Italia
+      - link "← Torna alla Homepage" [ref=e226] [cursor=pointer]:
+        - /url: index.html
+  - contentinfo [ref=e227]:
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - link "Homepage" [ref=e231] [cursor=pointer]:
+            - /url: index.html
+            - img "Logo azienda pulizie" [ref=e232]
+          - paragraph [ref=e233]: Servizi di pulizia professionali per privati e aziende. Qualità, affidabilità e rispetto dell'ambiente dal 2018.
+        - navigation "Link rapidi footer" [ref=e234]:
+          - heading "Link Utili" [level=3] [ref=e235]
+          - list [ref=e236]:
+            - listitem [ref=e237]:
+              - link "Servizi" [ref=e238] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e239]:
+              - link "Chi Siamo" [ref=e240] [cursor=pointer]:
+                - /url: index.html#chi-siamo
+            - listitem [ref=e241]:
+              - link "FAQ" [ref=e242] [cursor=pointer]:
+                - /url: index.html#faq
+            - listitem [ref=e243]:
+              - link "Privacy Policy" [ref=e244] [cursor=pointer]:
+                - /url: privacy.html
+            - listitem [ref=e245]:
+              - link "Contatti" [ref=e246] [cursor=pointer]:
+                - /url: contatti.html
+            - listitem [ref=e247]:
+              - link "Lavora con Noi" [ref=e248] [cursor=pointer]:
+                - /url: lavora-con-noi.html
+        - generic [ref=e249]:
+          - heading "Servizi" [level=3] [ref=e250]
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "Pulizia Uffici" [ref=e253] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e254]:
+              - link "Pulizia Domestica" [ref=e255] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e256]:
+              - link "Pulizia Finestre" [ref=e257] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e258]:
+              - link "Pulizia di Fine Cantiere" [ref=e259] [cursor=pointer]:
+                - /url: index.html#servizi
+        - generic [ref=e260]:
+          - heading "Contattaci" [level=3] [ref=e261]
+          - list [ref=e262]:
+            - listitem [ref=e263]:
+              - generic [ref=e264]: ☎
+              - link "+39 02 95732387" [ref=e265] [cursor=pointer]:
+                - /url: tel:+390295732387
+            - listitem [ref=e266]:
+              - img [ref=e268]
+              - link "+39 335 5877501" [ref=e270] [cursor=pointer]:
+                - /url: tel:+393355877501
+            - listitem [ref=e271]:
+              - img [ref=e273]
+              - link "+39 327 392 2470" [ref=e275] [cursor=pointer]:
+                - /url: tel:+393273922470
+            - listitem [ref=e276]:
+              - generic [ref=e277]: ✉
+              - link "info@newcleanpulizie.it" [ref=e278] [cursor=pointer]:
+                - /url: mailto:info@newcleanpulizie.it
+            - listitem [ref=e279]:
+              - generic [ref=e280]: ⚑
+              - generic [ref=e281]: Via Redipuglia 53, 20066 Melzo (MI)
+      - generic [ref=e282]:
+        - link "Seguici su Instagram" [ref=e283] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e284]
+        - link "Seguici su Facebook" [ref=e286] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e287]
+        - link "Seguici su LinkedIn" [ref=e289] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e290]
+      - paragraph [ref=e293]: © 2026 New Clean Srl. Tutti i diritti riservati. | P.IVA IT 12345678901
+  - link "Contattaci su WhatsApp" [ref=e294] [cursor=pointer]:
+    - /url: https://wa.me/393273922470?text=Ciao%2C%20vorrei%20informazioni%20sui%20vostri%20servizi%20di%20pulizia.
+    - img [ref=e295]
+  - dialog "Informativa sui cookie" [ref=e297]:
+    - generic [ref=e298]:
+      - paragraph [ref=e299]:
+        - text: 🍪 Questo sito utilizza cookie tecnici e, se accetti, cookie di profilazione di terze parti per migliorare la tua esperienza. Per maggiori informazioni leggi la nostra
+        - link "Privacy Policy" [ref=e300] [cursor=pointer]:
+          - /url: privacy.html
+        - text: .
+      - generic [ref=e301]:
+        - button "Accetta" [ref=e302] [cursor=pointer]
+        - button "Rifiuta" [ref=e303] [cursor=pointer]

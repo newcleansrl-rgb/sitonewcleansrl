@@ -1,0 +1,242 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1781095385.5121586,
+    "ast_hash": "af5683cedca023035194f9ad92eb0eef",
+    "semantic_hash": "af5683cedca023035194f9ad92eb0eef"
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1781098444.7248664,
+    "ast_hash": "8b140c89a2b26d5c748e59654b70e03f",
+    "semantic_hash": "8b140c89a2b26d5c748e59654b70e03f"
+  },
+  "script.js": {
+    "mtime": 1780401278.013766,
+    "ast_hash": "6716351d09cb7c663c6a90dbcf1d9dda",
+    "semantic_hash": "6716351d09cb7c663c6a90dbcf1d9dda"
+  },
+  ".claude/skills/graphify/SKILL.md": {
+    "mtime": 1781095191.5879376,
+    "ast_hash": "27571c6fb41c9e1e2bde11a53c690892",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T17-56-44-817Z.yml": {
+    "mtime": 1780768604.8188186,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T17-59-23-251Z.yml": {
+    "mtime": 1780768763.252207,
+    "ast_hash": "edfbbb27c94c137a644f9c47405f618f",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T17-59-57-912Z.yml": {
+    "mtime": 1780768797.913664,
+    "ast_hash": "edfbbb27c94c137a644f9c47405f618f",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-00-02-071Z.yml": {
+    "mtime": 1780768802.0719857,
+    "ast_hash": "ace1f52c546fbb5951d83b794e5fe1c5",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-00-15-833Z.yml": {
+    "mtime": 1780768815.834692,
+    "ast_hash": "0d8a7934b5fe0aeb3de26d367c5a21b1",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-00-24-427Z.yml": {
+    "mtime": 1780768824.4286466,
+    "ast_hash": "c16ecbf59be888aca3a80d7a48daa8f9",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-00-33-192Z.yml": {
+    "mtime": 1780768833.1932414,
+    "ast_hash": "6b92d7458e9805f87ead3b75b278532c",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-00-40-882Z.yml": {
+    "mtime": 1780768840.883257,
+    "ast_hash": "6b92d7458e9805f87ead3b75b278532c",
+    "semantic_hash": "6b92d7458e9805f87ead3b75b278532c"
+  },
+  ".playwright-mcp/page-2026-06-06T18-00-52-609Z.yml": {
+    "mtime": 1780768852.6109629,
+    "ast_hash": "aa8e3b39b609ca5291482731316d6ffe",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-01-05-776Z.yml": {
+    "mtime": 1780768865.7771578,
+    "ast_hash": "aa8e3b39b609ca5291482731316d6ffe",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-04-18-579Z.yml": {
+    "mtime": 1780769058.5789232,
+    "ast_hash": "6bcee720f09e743e0f0c35f4137268d3",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-04-37-989Z.yml": {
+    "mtime": 1780769077.989957,
+    "ast_hash": "f85429ab0ab99d6beb2d0a59f5449754",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-05-25-044Z.yml": {
+    "mtime": 1780769125.0457926,
+    "ast_hash": "555cdace1787d7964762b9bf6ca5ed60",
+    "semantic_hash": "555cdace1787d7964762b9bf6ca5ed60"
+  },
+  ".playwright-mcp/page-2026-06-06T18-05-39-256Z.yml": {
+    "mtime": 1780769139.2579446,
+    "ast_hash": "f1ad29954da3d7bad0e2053d156b8c01",
+    "semantic_hash": "f1ad29954da3d7bad0e2053d156b8c01"
+  },
+  ".playwright-mcp/page-2026-06-06T18-06-11-439Z.yml": {
+    "mtime": 1780769171.4400156,
+    "ast_hash": "5de0861168504dacea7aee7e3516b4d4",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-06-20-628Z.yml": {
+    "mtime": 1780769180.630757,
+    "ast_hash": "555cdace1787d7964762b9bf6ca5ed60",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-06-42-761Z.yml": {
+    "mtime": 1780769202.761962,
+    "ast_hash": "2b3e21df16d40f8fbbda73e33d0e9d1f",
+    "semantic_hash": "2b3e21df16d40f8fbbda73e33d0e9d1f"
+  },
+  ".playwright-mcp/page-2026-06-06T18-07-10-898Z.yml": {
+    "mtime": 1780769230.8993576,
+    "ast_hash": "edfbbb27c94c137a644f9c47405f618f",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-07-32-176Z.yml": {
+    "mtime": 1780769252.1775458,
+    "ast_hash": "f1ad29954da3d7bad0e2053d156b8c01",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-07-37-504Z.yml": {
+    "mtime": 1780769257.506364,
+    "ast_hash": "edfbbb27c94c137a644f9c47405f618f",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-06T18-08-06-285Z.yml": {
+    "mtime": 1780769286.2868257,
+    "ast_hash": "edfbbb27c94c137a644f9c47405f618f",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1781095385.5091586,
+    "ast_hash": "0f4caee0397909c9c3f9e795095b3939",
+    "semantic_hash": "0f4caee0397909c9c3f9e795095b3939"
+  },
+  "contatti.html": {
+    "mtime": 1780769811.8521895,
+    "ast_hash": "54b5007e151dda4c49e2ddeaea045ecc",
+    "semantic_hash": "54b5007e151dda4c49e2ddeaea045ecc"
+  },
+  "index.html": {
+    "mtime": 1780769749.8272774,
+    "ast_hash": "5c062f7216866739428729084b58ccb3",
+    "semantic_hash": "5c062f7216866739428729084b58ccb3"
+  },
+  "lavora-con-noi.html": {
+    "mtime": 1780769816.0902321,
+    "ast_hash": "e9f6f8d686f9ddf3c9d66c27a5c7c7cf",
+    "semantic_hash": "e9f6f8d686f9ddf3c9d66c27a5c7c7cf"
+  },
+  "privacy.html": {
+    "mtime": 1780766815.258411,
+    "ast_hash": "1826dc1c3232d4ccde7fdb319c23b690",
+    "semantic_hash": "1826dc1c3232d4ccde7fdb319c23b690"
+  },
+  "brand_assets/10.png": {
+    "mtime": 1779808069.3873005,
+    "ast_hash": "d5f82f61e62f683f286ec0807616193a",
+    "semantic_hash": "d5f82f61e62f683f286ec0807616193a"
+  },
+  "brand_assets/11.png": {
+    "mtime": 1779808017.98602,
+    "ast_hash": "0734cda45c9c6851b39b4ff6511cd20a",
+    "semantic_hash": "0734cda45c9c6851b39b4ff6511cd20a"
+  },
+  "brand_assets/Nome Societ\u00e0 x Homepage.png": {
+    "mtime": 1779959995.946551,
+    "ast_hash": "d59c1a16540246d81ad02fb342f6844b",
+    "semantic_hash": "d59c1a16540246d81ad02fb342f6844b"
+  },
+  "brand_assets/about.png": {
+    "mtime": 1779808038.5438254,
+    "ast_hash": "954c455973bd87fabf6c76784c69178d",
+    "semantic_hash": "954c455973bd87fabf6c76784c69178d"
+  },
+  "brand_assets/hero.png": {
+    "mtime": 1779808208.0525875,
+    "ast_hash": "a3bdcfe1aeec7c0e4eb611e8c3322b78",
+    "semantic_hash": "a3bdcfe1aeec7c0e4eb611e8c3322b78"
+  },
+  "brand_assets/logo.png": {
+    "mtime": 1779960014.8718617,
+    "ast_hash": "9ec7af6b516a8e516642ac434d12cb23",
+    "semantic_hash": "9ec7af6b516a8e516642ac434d12cb23"
+  },
+  "brand_assets/service-1.jpg": {
+    "mtime": 1780581221.8784842,
+    "ast_hash": "e27437b1ae6ee3c832c5872c3df519f7",
+    "semantic_hash": "e27437b1ae6ee3c832c5872c3df519f7"
+  },
+  "brand_assets/service-2.png": {
+    "mtime": 1779808106.904645,
+    "ast_hash": "c94feed347145bd7130c80a51755c6d2",
+    "semantic_hash": "c94feed347145bd7130c80a51755c6d2"
+  },
+  "brand_assets/service-3.jpg": {
+    "mtime": 1780581599.4138887,
+    "ast_hash": "ee603a5761c87e3c399fc42ee4bff399",
+    "semantic_hash": "ee603a5761c87e3c399fc42ee4bff399"
+  },
+  "brand_assets/service-4.jpg": {
+    "mtime": 1780581002.406257,
+    "ast_hash": "69e12be066ebbf8857e85011aa50eefc",
+    "semantic_hash": "69e12be066ebbf8857e85011aa50eefc"
+  },
+  "brand_assets/service-5.png": {
+    "mtime": 1779808189.7768645,
+    "ast_hash": "dfb7ead4db660908e13542518c933f63",
+    "semantic_hash": "dfb7ead4db660908e13542518c933f63"
+  },
+  "brand_assets/service-6.jpg": {
+    "mtime": 1780580704.1786046,
+    "ast_hash": "687e52963fb2e76ac48128495c5e625c",
+    "semantic_hash": "687e52963fb2e76ac48128495c5e625c"
+  },
+  "brand_assets/testimonial-1.png": {
+    "mtime": 1779808027.977177,
+    "ast_hash": "06a93ff2b664fdbe6fa3067060aaf9cc",
+    "semantic_hash": "06a93ff2b664fdbe6fa3067060aaf9cc"
+  },
+  "brand_assets/testimonial-2.png": {
+    "mtime": 1779808001.5499623,
+    "ast_hash": "10522666009ef28540214e0def2ad11f",
+    "semantic_hash": "10522666009ef28540214e0def2ad11f"
+  },
+  "brand_assets/testimonial-3.png": {
+    "mtime": 1779808155.7742026,
+    "ast_hash": "240283b37eccf62c486bac24aff11f39",
+    "semantic_hash": "240283b37eccf62c486bac24aff11f39"
+  },
+  "brand_assets/testimonial-4.png": {
+    "mtime": 1779808138.7568235,
+    "ast_hash": "53ebb7051525429f1eb331a37dc973fb",
+    "semantic_hash": "53ebb7051525429f1eb331a37dc973fb"
+  },
+  "brand_assets/testimonial-5.png": {
+    "mtime": 1779808119.0628033,
+    "ast_hash": "3b63424999482d7eeb0bd685a4f60104",
+    "semantic_hash": "3b63424999482d7eeb0bd685a4f60104"
+  },
+  "brand_assets/testimonial-6.png": {
+    "mtime": 1779808081.9130006,
+    "ast_hash": "2e4c9063332ef461df6926d8a9950182",
+    "semantic_hash": "2e4c9063332ef461df6926d8a9950182"
+  }
+}

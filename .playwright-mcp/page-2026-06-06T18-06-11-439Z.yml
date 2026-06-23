@@ -1,0 +1,252 @@
+- generic [ref=e1]:
+  - link "Vai al contenuto principale" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Torna alla homepage" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Logo azienda pulizie" [ref=e6]
+      - navigation "Navigazione principale" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Servizi" [ref=e10] [cursor=pointer]:
+              - /url: index.html#servizi
+          - listitem [ref=e11]:
+            - link "Come Lavoriamo" [ref=e12] [cursor=pointer]:
+              - /url: index.html#come-lavoriamo
+          - listitem [ref=e13]:
+            - link "Chi Siamo" [ref=e14] [cursor=pointer]:
+              - /url: index.html#chi-siamo
+          - listitem [ref=e15]:
+            - link "FAQ" [ref=e16] [cursor=pointer]:
+              - /url: index.html#faq
+          - listitem [ref=e17]:
+            - link "Recensioni" [ref=e18] [cursor=pointer]:
+              - /url: index.html#testimonianze
+          - listitem [ref=e19]:
+            - link "Contatti" [active] [ref=e20] [cursor=pointer]:
+              - /url: "#main-content"
+      - link "Preventivo Gratuito" [ref=e21] [cursor=pointer]:
+        - /url: contatti.html
+      - button "Cambia tema chiaro/scuro" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ☀
+        - generic [ref=e24]: ☾
+  - generic "Intestazione pagina contatti" [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Contattaci" [level=1] [ref=e27]:
+        - img [ref=e29]
+        - text: Contattaci
+      - paragraph [ref=e37]: Compila il form sottostante o contattaci direttamente. Ti risponderemo entro 24 ore.
+  - main [ref=e38]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "Inviaci un messaggio" [level=2] [ref=e42]
+        - alert [ref=e199]: ✓ Messaggio inviato con successo! Ti risponderemo al più presto.
+        - form "Form di contatto" [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: Nome e Cognome *
+            - textbox "Nome e Cognome" [ref=e46]:
+              - /placeholder: Mario Rossi
+          - generic [ref=e47]:
+            - generic [ref=e48]: Indirizzo Email *
+            - textbox "Indirizzo Email" [ref=e49]:
+              - /placeholder: mario@esempio.it
+          - generic [ref=e50]:
+            - generic [ref=e51]: Numero di Telefono
+            - textbox "Numero di Telefono" [ref=e52]:
+              - /placeholder: +39 ...
+          - generic [ref=e53]:
+            - generic [ref=e54]: Tipo di Servizio Desiderato
+            - combobox "Tipo di Servizio Desiderato" [ref=e55] [cursor=pointer]:
+              - option "Seleziona un servizio..." [disabled] [selected]
+              - option "Pulizia Uffici"
+              - option "Pulizia Domestica"
+              - option "Pulizia Finestre"
+              - option "Pulizia Tessuti"
+              - option "Pulizia di Fine Cantiere"
+              - option "Trattamenti"
+              - option "Altro"
+          - generic [ref=e56]:
+            - generic [ref=e57]: Preferenza Oraria
+            - combobox "Preferenza Oraria" [ref=e58] [cursor=pointer]:
+              - option "Seleziona una fascia oraria..." [disabled] [selected]
+              - option "Mattina (08:30 - 12:00)"
+              - option "Pomeriggio (14:30 - 17:30)"
+              - option "Flessibile"
+          - generic [ref=e59]:
+            - generic [ref=e60]: Messaggio *
+            - textbox "Messaggio" [ref=e61]:
+              - /placeholder: Descrivi il servizio di cui hai bisogno, i tuoi requisiti e le tue preferenze...
+          - button "Invia Richiesta" [ref=e62] [cursor=pointer]
+      - complementary [ref=e63]:
+        - generic [ref=e64]:
+          - heading "Informazioni Aziendali" [level=2] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]: ☎
+            - generic [ref=e68]:
+              - heading "Telefono Fisso" [level=4] [ref=e69]
+              - paragraph [ref=e70]:
+                - link "+39 02 95732387" [ref=e71] [cursor=pointer]:
+                  - /url: tel:+390295732387
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - generic [ref=e76]:
+              - heading "Cellulare 1" [level=4] [ref=e77]
+              - paragraph [ref=e78]:
+                - link "+39 335 5877501" [ref=e79] [cursor=pointer]:
+                  - /url: tel:+393355877501
+          - generic [ref=e80]:
+            - img [ref=e82]
+            - generic [ref=e84]:
+              - heading "Cellulare 2" [level=4] [ref=e85]
+              - paragraph [ref=e86]:
+                - link "+39 327 392 2470" [ref=e87] [cursor=pointer]:
+                  - /url: tel:+393273922470
+          - generic [ref=e88]:
+            - generic [ref=e89]: ✉
+            - generic [ref=e90]:
+              - heading "Email" [level=4] [ref=e91]
+              - paragraph [ref=e92]:
+                - link "info@newcleanpulizie.it" [ref=e93] [cursor=pointer]:
+                  - /url: mailto:info@newcleanpulizie.it
+          - generic [ref=e94]:
+            - generic [ref=e95]: ⚑
+            - generic [ref=e96]:
+              - heading "Indirizzo" [level=4] [ref=e97]
+              - paragraph [ref=e98]:
+                - text: Via Redipuglia 53
+                - text: 20066 Melzo (MI), Italia
+          - generic [ref=e99]:
+            - generic [ref=e100]: ⏱
+            - generic [ref=e101]:
+              - heading "Orari di Apertura Uffici" [level=4] [ref=e102]
+              - paragraph [ref=e103]:
+                - text: "Lun - Ven: 08:30 - 12:00 / 14:30 - 17:30"
+                - text: "Sabato: Chiuso"
+                - text: "Domenica: Chiuso"
+          - generic [ref=e104]:
+            - generic [ref=e105]: ☁
+            - generic [ref=e106]:
+              - heading "WhatsApp" [level=4] [ref=e107]
+              - paragraph [ref=e108]:
+                - link "Scrivici su WhatsApp →" [ref=e109] [cursor=pointer]:
+                  - /url: https://wa.me/393273922470?text=Ciao%2C%20vorrei%20informazioni%20sui%20vostri%20servizi.
+        - iframe [ref=e111]:
+          - generic [ref=f1e6]:
+            - generic:
+              - button "Scorciatoie da tastiera"
+            - region "Mappa" [ref=f1e8]
+            - generic [ref=f1e9]:
+              - iframe [ref=f1e25]:
+                
+              - button "Controlli di visualizzazione della mappa" [ref=f1e27] [cursor=pointer]
+              - button "Mostra immagini satellitari" [ref=f1e30] [cursor=pointer]:
+                - generic [ref=f1e34]:
+                  - region [ref=f1e35]
+                  - iframe [ref=f1e41]:
+                    
+              - img "Google" [ref=f1e43]
+              - generic [ref=f1e44]:
+                - button "Scorciatoie da tastiera" [ref=f1e50] [cursor=pointer]
+                - generic [ref=f1e55]: Dati mappa ©2026
+                - link "Termini (si apre in una nuova scheda)" [ref=f1e60] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/it_IT/help/terms_maps.html
+                  - text: Termini
+                - link "Segnala un errore nella mappa (si apre in una nuova scheda)" [ref=f1e65] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/@45.5012755,9.4310378,16z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+                  - text: Segnala un errore nella mappa
+        - generic [ref=e112]:
+          - heading "Hai bisogno di un preventivo rapido?" [level=3] [ref=e113]
+          - paragraph [ref=e114]: Chiama direttamente il nostro numero per una risposta immediata.
+          - link "☎ Chiama Ora" [ref=e115] [cursor=pointer]:
+            - /url: tel:+393273922470
+  - contentinfo [ref=e116]:
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - link "Homepage" [ref=e120] [cursor=pointer]:
+            - /url: index.html
+            - img "Logo azienda pulizie" [ref=e121]
+          - paragraph [ref=e122]: Servizi di pulizia professionali per privati e aziende. Qualità, affidabilità e rispetto dell'ambiente dal 2018.
+        - navigation "Link rapidi footer" [ref=e123]:
+          - heading "Link Utili" [level=3] [ref=e124]
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - link "Servizi" [ref=e127] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e128]:
+              - link "Chi Siamo" [ref=e129] [cursor=pointer]:
+                - /url: index.html#chi-siamo
+            - listitem [ref=e130]:
+              - link "FAQ" [ref=e131] [cursor=pointer]:
+                - /url: index.html#faq
+            - listitem [ref=e132]:
+              - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+                - /url: privacy.html
+            - listitem [ref=e134]:
+              - link "Contatti" [ref=e135] [cursor=pointer]:
+                - /url: contatti.html
+            - listitem [ref=e136]:
+              - link "Lavora con Noi" [ref=e137] [cursor=pointer]:
+                - /url: lavora-con-noi.html
+        - generic [ref=e138]:
+          - heading "Servizi" [level=3] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "Pulizia Uffici" [ref=e142] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e143]:
+              - link "Pulizia Domestica" [ref=e144] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e145]:
+              - link "Pulizia Finestre" [ref=e146] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e147]:
+              - link "Pulizia di Fine Cantiere" [ref=e148] [cursor=pointer]:
+                - /url: index.html#servizi
+        - generic [ref=e149]:
+          - heading "Contattaci" [level=3] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - generic [ref=e153]: ☎
+              - link "+39 02 95732387" [ref=e154] [cursor=pointer]:
+                - /url: tel:+390295732387
+            - listitem [ref=e155]:
+              - img [ref=e157]
+              - link "+39 335 5877501" [ref=e159] [cursor=pointer]:
+                - /url: tel:+393355877501
+            - listitem [ref=e160]:
+              - img [ref=e162]
+              - link "+39 327 392 2470" [ref=e164] [cursor=pointer]:
+                - /url: tel:+393273922470
+            - listitem [ref=e165]:
+              - generic [ref=e166]: ✉
+              - link "info@newcleanpulizie.it" [ref=e167] [cursor=pointer]:
+                - /url: mailto:info@newcleanpulizie.it
+            - listitem [ref=e168]:
+              - generic [ref=e169]: ⚑
+              - generic [ref=e170]: Via Redipuglia 53, 20066 Melzo (MI)
+      - generic [ref=e171]:
+        - link "Seguici su Instagram" [ref=e172] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e173]
+        - link "Seguici su Facebook" [ref=e175] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e176]
+        - link "Seguici su LinkedIn" [ref=e178] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e179]
+      - paragraph [ref=e182]: © 2026 New Clean Srl. Tutti i diritti riservati. | P.IVA IT 12345678901
+  - link "Contattaci su WhatsApp" [ref=e183] [cursor=pointer]:
+    - /url: https://wa.me/393273922470?text=Ciao%2C%20vorrei%20informazioni%20sui%20vostri%20servizi%20di%20pulizia.
+    - img [ref=e184]
+  - dialog "Informativa sui cookie" [ref=e186]:
+    - generic [ref=e187]:
+      - paragraph [ref=e188]:
+        - text: 🍪 Questo sito utilizza cookie tecnici e, se accetti, cookie di profilazione di terze parti per migliorare la tua esperienza. Per maggiori informazioni leggi la nostra
+        - link "Privacy Policy" [ref=e189] [cursor=pointer]:
+          - /url: privacy.html
+        - text: .
+      - generic [ref=e190]:
+        - button "Accetta" [ref=e191] [cursor=pointer]
+        - button "Rifiuta" [ref=e192] [cursor=pointer]

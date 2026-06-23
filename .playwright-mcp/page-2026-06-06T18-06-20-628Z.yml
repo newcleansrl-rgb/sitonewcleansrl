@@ -1,0 +1,216 @@
+- generic [active] [ref=e1]:
+  - link "Vai al contenuto principale" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Torna alla homepage" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Logo azienda pulizie" [ref=e6]
+      - navigation "Navigazione principale" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Servizi" [ref=e10] [cursor=pointer]:
+              - /url: index.html#servizi
+          - listitem [ref=e11]:
+            - link "Come Lavoriamo" [ref=e12] [cursor=pointer]:
+              - /url: index.html#come-lavoriamo
+          - listitem [ref=e13]:
+            - link "Chi Siamo" [ref=e14] [cursor=pointer]:
+              - /url: index.html#chi-siamo
+          - listitem [ref=e15]:
+            - link "FAQ" [ref=e16] [cursor=pointer]:
+              - /url: index.html#faq
+          - listitem [ref=e17]:
+            - link "Recensioni" [ref=e18] [cursor=pointer]:
+              - /url: index.html#testimonianze
+          - listitem [ref=e19]:
+            - link "Contatti" [ref=e20] [cursor=pointer]:
+              - /url: contatti.html
+      - link "Preventivo Gratuito" [ref=e21] [cursor=pointer]:
+        - /url: contatti.html
+      - button "Cambia tema chiaro/scuro" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ☀
+        - generic [ref=e24]: ☾
+  - generic "Intestazione pagina lavora con noi" [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Lavora con Noi" [level=1] [ref=e27]:
+        - generic [ref=e28]: 💼
+        - text: Lavora con Noi
+      - paragraph [ref=e29]: Unisciti al team New Clean! Compila il form sottostante per candidarti. Ti risponderemo entro 48 ore.
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "Il tuo profilo" [level=2] [ref=e34]
+        - form "Form di candidatura lavoro" [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: Nome *
+            - textbox "Nome" [ref=e38]:
+              - /placeholder: Mario
+          - generic [ref=e39]:
+            - generic [ref=e40]: Cognome *
+            - textbox "Cognome" [ref=e41]:
+              - /placeholder: Rossi
+          - generic [ref=e42]:
+            - generic [ref=e43]: Data di Nascita *
+            - textbox "Data di Nascita" [ref=e44]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Orario di Preferenza per Lavorare *
+            - combobox "Orario di Preferenza per Lavorare" [ref=e47] [cursor=pointer]:
+              - option "Seleziona il tuo orario preferito..." [disabled] [selected]
+              - option "Mattina (08:30 - 12:00)"
+              - option "Pomeriggio (14:30 - 17:30)"
+              - option "Entrambi i turni"
+          - generic [ref=e48]:
+            - generic [ref=e49]: Numero di Telefono *
+            - textbox "Numero di Telefono" [ref=e50]:
+              - /placeholder: +39 ...
+          - generic [ref=e51]:
+            - generic [ref=e52]: Indirizzo Email (opzionale)
+            - textbox "Indirizzo Email (opzionale)" [ref=e53]:
+              - /placeholder: mario@esempio.it
+          - generic [ref=e54]:
+            - generic [ref=e55]: Perché vuoi lavorare con noi? (opzionale)
+            - textbox "Perché vuoi lavorare con noi? (opzionale)" [ref=e56]:
+              - /placeholder: Raccontaci brevemente di te, la tua esperienza e perché sei interessato a unirti al nostro team...
+          - button "🚀 Invia Candidatura" [ref=e57] [cursor=pointer]
+      - complementary [ref=e58]:
+        - generic [ref=e59]:
+          - heading "⭐ Perchè Lavorare con Noi" [level=2] [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: ★
+            - generic [ref=e63]:
+              - heading "Ambiente Dinamico" [level=4] [ref=e64]
+              - paragraph [ref=e65]: Lavora in team con colleghi appassionati e professionali.
+          - generic [ref=e66]:
+            - generic [ref=e67]: 📈
+            - generic [ref=e68]:
+              - heading "Crescita Professionale" [level=4] [ref=e69]
+              - paragraph [ref=e70]: Formazione continua e opportunità di advancement.
+          - generic [ref=e71]:
+            - generic [ref=e72]: 🕹
+            - generic [ref=e73]:
+              - heading "Flessibilità Oraria" [level=4] [ref=e74]
+              - paragraph [ref=e75]: Scegli gli orari che preferisci tra mattina, pomeriggio o entrambi.
+          - generic [ref=e76]:
+            - generic [ref=e77]: 🍪
+            - generic [ref=e78]:
+              - heading "Stabilità" [level=4] [ref=e79]
+              - paragraph [ref=e80]: Oltre 30 anni di esperienza nel settore ci garantiscono solidità.
+        - generic [ref=e81]:
+          - heading "Hai Domande?" [level=2] [ref=e82]
+          - paragraph [ref=e83]: Contattaci direttamente per qualsiasi informazione sul processo di selezione.
+          - generic [ref=e84]:
+            - generic [ref=e85]: ✉
+            - generic [ref=e86]:
+              - heading "Email HR" [level=4] [ref=e87]
+              - paragraph [ref=e88]:
+                - link "personale@newcleanpulizie.it" [ref=e89] [cursor=pointer]:
+                  - /url: mailto:personale@newcleanpulizie.it
+          - generic [ref=e90]:
+            - generic [ref=e91]: ☎
+            - generic [ref=e92]:
+              - heading "Telefono" [level=4] [ref=e93]
+              - paragraph [ref=e94]:
+                - link "+39 02 95732387" [ref=e95] [cursor=pointer]:
+                  - /url: tel:+390295732387
+          - generic [ref=e96]:
+            - generic [ref=e97]: ⚑
+            - generic [ref=e98]:
+              - heading "Sede" [level=4] [ref=e99]
+              - paragraph [ref=e100]:
+                - text: Via Redipuglia 53
+                - text: 20066 Melzo (MI), Italia
+        - generic [ref=e101]:
+          - heading "Conosci qualcuno di interessato?" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Invia a questa pagina il tuo amico o conoscente!
+          - button "🔀 Condividi Pagina" [ref=e104] [cursor=pointer]
+  - contentinfo [ref=e105]:
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - link "Homepage" [ref=e109] [cursor=pointer]:
+            - /url: index.html
+            - img "Logo azienda pulizie" [ref=e110]
+          - paragraph [ref=e111]: Servizi di pulizia professionali per privati e aziende. Qualità, affidabilità e rispetto dell'ambiente dal 2018.
+        - navigation "Link rapidi footer" [ref=e112]:
+          - heading "Link Utili" [level=3] [ref=e113]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "Servizi" [ref=e116] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e117]:
+              - link "Chi Siamo" [ref=e118] [cursor=pointer]:
+                - /url: index.html#chi-siamo
+            - listitem [ref=e119]:
+              - link "FAQ" [ref=e120] [cursor=pointer]:
+                - /url: index.html#faq
+            - listitem [ref=e121]:
+              - link "Privacy Policy" [ref=e122] [cursor=pointer]:
+                - /url: privacy.html
+            - listitem [ref=e123]:
+              - link "Contatti" [ref=e124] [cursor=pointer]:
+                - /url: contatti.html
+            - listitem [ref=e125]:
+              - link "Lavora con Noi" [ref=e126] [cursor=pointer]:
+                - /url: lavora-con-noi.html
+        - generic [ref=e127]:
+          - heading "Servizi" [level=3] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Pulizia Uffici" [ref=e131] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e132]:
+              - link "Pulizia Domestica" [ref=e133] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e134]:
+              - link "Pulizia Finestre" [ref=e135] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e136]:
+              - link "Pulizia di Fine Cantiere" [ref=e137] [cursor=pointer]:
+                - /url: index.html#servizi
+        - generic [ref=e138]:
+          - heading "Contattaci" [level=3] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - generic [ref=e142]: ☎
+              - link "+39 02 95732387" [ref=e143] [cursor=pointer]:
+                - /url: tel:+390295732387
+            - listitem [ref=e144]:
+              - img [ref=e146]
+              - link "+39 335 5877501" [ref=e148] [cursor=pointer]:
+                - /url: tel:+393355877501
+            - listitem [ref=e149]:
+              - img [ref=e151]
+              - link "+39 327 392 2470" [ref=e153] [cursor=pointer]:
+                - /url: tel:+393273922470
+            - listitem [ref=e154]:
+              - generic [ref=e155]: ✉
+              - link "info@newcleanpulizie.it" [ref=e156] [cursor=pointer]:
+                - /url: mailto:info@newcleanpulizie.it
+            - listitem [ref=e157]:
+              - generic [ref=e158]: ⚑
+              - generic [ref=e159]: Via Redipuglia 53, 20066 Melzo (MI)
+      - generic [ref=e160]:
+        - link "Seguici su Instagram" [ref=e161] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e162]
+        - link "Seguici su Facebook" [ref=e164] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e165]
+        - link "Seguici su LinkedIn" [ref=e167] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e168]
+      - paragraph [ref=e171]: © 2026 New Clean Srl. Tutti i diritti riservati. | P.IVA IT 12345678901
+  - link "Contattaci su WhatsApp" [ref=e172] [cursor=pointer]:
+    - /url: https://wa.me/393273922470?text=Ciao%2C%20vorrei%20informazioni%20sui%20vostri%20servizi%20di%20pulizia.
+    - img [ref=e173]
+  - dialog "Informativa sui cookie" [ref=e175]:
+    - generic [ref=e176]:
+      - paragraph [ref=e177]:
+        - text: 🍪 Questo sito utilizza cookie tecnici e, se accetti, cookie di profilazione di terze parti per migliorare la tua esperienza. Per maggiori informazioni leggi la nostra
+        - link "Privacy Policy" [ref=e178] [cursor=pointer]:
+          - /url: privacy.html
+        - text: .
+      - generic [ref=e179]:
+        - button "Accetta" [ref=e180] [cursor=pointer]
+        - button "Rifiuta" [ref=e181] [cursor=pointer]

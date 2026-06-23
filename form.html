@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sondaggio di Soddisfazione — Valuta il Nostro Servizio</title>
+
+  <!-- Google Fonts: Inter (solo titoli) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function () {
+      // ⚠️ SOSTITUIRE CON LA TUA PUBLIC KEY DI EMAILJS
+      emailjs.init("ohQ2pBkRhgzxfiY02");
+    })();
+  </script>
+
+  <!-- Stile dedicato al form -->
+  <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+
+  <main class="form-wrapper">
+    <header class="form-header">
+      <h1>Grazie per aver scelto i nostri servizi di pulizia!</h1>
+      <p>
+        Ci aiuta a migliorare? Compila il breve sondaggio qui sotto.
+        La tua opinione è molto importante per noi.
+      </p>
+    </header>
+
+    <form id="surveyForm" novalidate>
+
+      <!-- Campo nascosto: totale punti calcolato in tempo reale -->
+      <input type="hidden" id="totalScoreHidden" name="totalScore" value="0" />
+
+      <!-- ====== SEZIONE 1 — Valutazione multi-criterio (KPI) ====== -->
+      <section class="form-section">
+        <h2>1. Valuta i nostri servizi</h2>
+        <p class="section-hint">Per ogni domanda, scegli un punteggio da 1 a 10.</p>
+
+        <!-- Legenda scala di valutazione -->
+        <div id="ratingLegend" class="rating-legend"></div>
+
+        <!-- Le 9 domande vengono generate dinamicamente via JS -->
+        <div id="ratingQuestions"></div>
+
+        <span id="ratingError" class="error-msg" hidden>Inserisci un punteggio per tutte le domande (da 1 a 10).</span>
+      </section>
+
+      <!-- ====== SEZIONE 2 — Box Recensioni ====== -->
+      <section class="form-section">
+        <h2>2. Lascia una recensione</h2>
+        <p class="section-hint">
+          Racconta la tua esperienza. Il testo deve contenere almeno
+          <strong>100 caratteri</strong> per essere pubblicato come recensione.
+        </p>
+
+        <div class="textarea-wrapper">
+          <label for="reviewText" class="sr-only">La tua recensione</label>
+          <textarea
+            id="reviewText"
+            name="review"
+            rows="6"
+            maxlength="1000"
+            placeholder="Scrivi qui la tua esperienza con il nostro servizio di pulizia…"
+            aria-describedby="charCount reviewError"
+          ></textarea>
+        </div>
+
+        <div class="char-counter">
+          Caratteri: <span id="charCount">0</span> / 100 (minimo) — max 1000
+        </div>
+
+        <span id="reviewError" class="error-msg" hidden>
+          La recensione deve contenere almeno 100 caratteri.
+        </span>
+      </section>
+
+      <!-- ====== SEZIONE 3 — Consenso GDPR ====== -->
+      <section class="form-section">
+        <h2>3. Consenso alla pubblicazione</h2>
+
+        <label for="consentCheckbox" class="checkbox-label">
+          <input
+            type="checkbox"
+            id="consentCheckbox"
+            name="consent"
+            aria-describedby="consentHint"
+          />
+          <span class="checkmark"></span>
+          Acconsento alla pubblicazione di questa recensione sul mio sito web.
+        </label>
+
+        <p id="consentHint" class="hint-text">
+          Se non acconsenti, la tua recensione verrà utilizzata solo per uso interno e non sarà pubblicata.
+        </p>
+
+        <span id="consentError" class="error-msg" hidden>
+          Devi acconsentire alla pubblicazione se desideri inviare la recensione.
+        </span>
+      </section>
+
+      <!-- ====== SEZIONE 4 — Dati Azienda (obbligatori) ====== -->
+      <section class="form-section">
+        <h2>4. Dati dell'azienda</h2>
+
+        <div class="input-group">
+          <label for="clientName">Nome Azienda <span class="required">*</span></label>
+          <input type="text" id="clientName" name="clientName" placeholder="Es. Rossi Cleaning Srl" required />
+        </div>
+
+        <div class="input-group">
+          <label for="clientEmail">Indirizzo Email <span class="required">*</span></label>
+          <input type="email" id="clientEmail" name="clientEmail" placeholder="info@azienda.it" required />
+        </div>
+      </section>
+
+      <!-- ====== BOTTONE INVIO ====== -->
+      <button type="submit" class="btn-submit">Invia Valutazione</button>
+    </form>
+
+    <!-- ====== MESSAGGIO DI SUCCESSO ====== -->
+    <div id="successMessage" class="success-message" hidden>
+      <h2>✅ Grazie per il tuo feedback!</h2>
+      <p>La tua valutazione è stata registrata con successo.</p>
+    </div>
+
+    <!-- ====== MESSAGGIO DI ERRORE GENERALE ====== -->
+    <div id="generalError" class="error-message" hidden>
+      <h2>⚠️ Si è verificato un errore.</h2>
+      <p>Si prega di verificare i campi evidenziati e riprovare.</p>
+    </div>
+  </main>
+
+  <script src="form-script.js"></script>
+</body>
+</html>

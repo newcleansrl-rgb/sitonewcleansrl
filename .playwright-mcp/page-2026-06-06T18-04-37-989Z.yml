@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - link "Vai al contenuto principale" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Torna alla homepage" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Logo azienda pulizie" [ref=e6]
+      - navigation "Navigazione principale"
+      - button "Apri menu di navigazione" [ref=e7] [cursor=pointer]
+      - button "Cambia tema chiaro/scuro" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: ☀
+        - generic [ref=e13]: ☾
+  - main [ref=e14]:
+    - region "Sezione introduttiva" [ref=e15]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: Professionisti al tuo servizio
+        - heading "Pulizia che fa brillare il tuo spazio" [level=1] [ref=e21]
+        - paragraph [ref=e22]: Servizi di pulizia professionali per uffici, case e ambienti commerciali. Affidabilità, qualità e attenzione ai dettagli in ogni intervento.
+        - generic [ref=e23]:
+          - link "Richiedi un Preventivo" [ref=e24] [cursor=pointer]:
+            - /url: contatti.html
+          - link "Scopri i Servizi" [ref=e25] [cursor=pointer]:
+            - /url: "#servizi"
+    - generic "Lavora con noi" [ref=e26]:
+      - link "Lavora con noi - Clicca per candidarti" [ref=e28] [cursor=pointer]:
+        - /url: lavora-con-noi.html
+        - generic [ref=e29]: 💼
+        - generic [ref=e30]:
+          - strong [ref=e31]: UNISCITI AL NOSTRO TEAM!
+          - generic [ref=e32]: Cerchiamo persone motivate — scopri come candidarti
+        - generic [ref=e34]: →
+    - region "Soluzioni su misura per ogni esigenza" [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: I Nostri Servizi
+          - heading "Soluzioni su misura per ogni esigenza" [level=2] [ref=e39]
+          - paragraph [ref=e40]: Offriamo una gamma completa di servizi di pulizia professionali, adattabili alle tue specifiche necessità.
+        - generic [ref=e41]:
+          - article [ref=e42]:
+            - heading "Pulizia Uffici" [level=3] [ref=e44]
+            - paragraph [ref=e45]: Ambienti di lavoro igienizzati e ordinati per aumentare produttività e benessere dei dipendenti.
+          - article [ref=e46]:
+            - heading "Pulizia Domestica" [level=3] [ref=e48]
+            - paragraph [ref=e49]: "Interventi a chiamata: pulizia infissi, vetri e tapparelle/persiane, pulizia profonda cucine e altri servizi su richiesta."
+          - article [ref=e50]:
+            - heading "Pulizia Finestre" [level=3] [ref=e52]
+            - paragraph [ref=e53]: Vetri cristallini per case e uffici, con attrezzature professionali per ogni altezza.
+          - article [ref=e54]:
+            - heading "Pulizia Tessuti" [level=3] [ref=e56]
+            - paragraph [ref=e57]: Lavaggio e igienizzazione sedie, arredi tappeti e divani a domicilio.
+          - article [ref=e58]:
+            - heading "Pulizia di Fine Cantiere" [level=3] [ref=e59]
+            - paragraph [ref=e60]: Pulizia completa dopo lavori edili o ristrutturazioni, per spazi pronti all'uso.
+          - article [ref=e61]:
+            - heading "Trattamenti" [level=3] [ref=e62]
+            - paragraph [ref=e63]: Trattamenti, lucidature, incerature e sigillature su misura per ogni pavimento.
+    - region "Come lavoriamo" [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]: Il Nostro Metodo
+          - heading "Come lavoriamo" [level=2] [ref=e68]
+          - paragraph [ref=e69]: Un processo semplice e trasparente in 4 step, dalla prima richiesta alla consegna del lavoro.
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: "1"
+            - heading "Contatto iniziale" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Ci chiami, ci scrivi o compili il form sul sito. Ti rispondiamo entro 24 ore per capire le esigenze generali e prenotare un sopralluogo.
+          - generic [ref=e75]:
+            - generic [ref=e76]: "2"
+            - heading "Sopralluogo gratuito" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Veniamo a vedere il luogo da pulire per capire esattamente cosa serve e proporti un preventivo preciso, senza sorprese e senza impegno.
+          - generic [ref=e79]:
+            - generic [ref=e80]: "3"
+            - heading "Intervento programmato" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Fissiamo una data per l'intervento comodo per entrambe le parti. Non dovrai preoccuparti di null'altro.
+          - generic [ref=e83]:
+            - generic [ref=e84]: "4"
+            - heading "Verifica e soddisfazione" [level=3] [ref=e85]
+            - paragraph [ref=e86]: Dopo l'intervento verificiamo insieme il risultato. Se non sei soddisfatto, rimediamo a nostre spese.
+        - link "Richiedi Preventivo Gratuito" [ref=e88] [cursor=pointer]:
+          - /url: contatti.html
+    - region "Perché scegliere noi" [ref=e89]:
+      - generic [ref=e91]:
+        - img "Il nostro team al lavoro in un ambiente pulito e ordinato" [ref=e93]
+        - generic [ref=e94]:
+          - generic [ref=e95]: Chi Siamo
+          - heading "Perché scegliere noi" [level=2] [ref=e96]
+          - paragraph [ref=e97]: Con oltre 30 anni di esperienza nel settore, offriamo un servizio di pulizia affidabile e professionale. Il nostro team è formato da personale qualificato che utilizza prodotti ecologici e attrezzature all'avanguardia.
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: ✓
+              - generic [ref=e101]:
+                - heading "Personale Qualificato" [level=4] [ref=e102]
+                - paragraph [ref=e103]: Operatori formati e certificati per ogni tipo di intervento.
+            - generic [ref=e104]:
+              - generic [ref=e105]: ♦
+              - generic [ref=e106]:
+                - heading "Prodotti Ecologici" [level=4] [ref=e107]
+                - paragraph [ref=e108]: Detergenti biodegradabili e sicuri per la salute.
+            - generic [ref=e109]:
+              - generic [ref=e110]: ⏱
+              - generic [ref=e111]:
+                - heading "Disponibilità Flessibile" [level=4] [ref=e112]
+                - paragraph [ref=e113]: Orari adattabili alle tue esigenze, anche nel weekend.
+            - generic [ref=e114]:
+              - generic [ref=e115]: ★
+              - generic [ref=e116]:
+                - heading "Soddisfazione Garantita" [level=4] [ref=e117]
+                - paragraph [ref=e118]: Se non sei soddisfatto del nostro lavoro, rimediamo a nostre spese.
+    - region "Statistiche aziendali" [ref=e119]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "0"
+          - generic [ref=e124]: Clienti Soddisfatti
+        - generic [ref=e125]:
+          - generic [ref=e126]: "0"
+          - generic [ref=e127]: Anni di Esperienza
+        - generic [ref=e128]:
+          - generic [ref=e129]: "0"
+          - generic [ref=e130]: Interventi Completati
+        - generic [ref=e131]:
+          - generic [ref=e132]: "0"
+          - generic [ref=e133]: Operatori Qualificati
+    - region "Hai qualche domanda?" [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]: Domande Frequenti
+          - heading "Hai qualche domanda?" [level=2] [ref=e138]
+          - paragraph [ref=e139]: Rispondiamo alle domande più comuni dei nostri clienti.
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - button "Quanto costa un servizio di pulizia?" [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]: Quanto costa un servizio di pulizia?
+              - generic [ref=e144]: ▶
+            - region:
+              - paragraph [ref=e145]: I prezzi variano in base al tipo di servizio, alla superficie e alla frequenza. Tutti i nostri preventivi vengono effettuati solo dopo aver effettuato un sopralluogo gratuito e senza impegno per garantire coerenza e professionalità. Contattaci per una quotazione precisa.
+          - generic [ref=e146]:
+            - button "Con che frequenza consigliate di pulire gli uffici?" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: Con che frequenza consigliate di pulire gli uffici?
+              - generic [ref=e149]: ▶
+            - region:
+              - paragraph [ref=e150]: La maggior parte dei nostri clienti per gli uffici sceglie una pulizia giornaliera con pulizie periodiche più mirate. Per spazi più piccoli o con poco traffico, una volta a settimana può bastare. Ti sapremo consigliare meglio in fase di sopralluogo.
+          - generic [ref=e151]:
+            - button "I prodotti che usate sono sicuri?" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: I prodotti che usate sono sicuri?
+              - generic [ref=e154]: ▶
+            - region:
+              - paragraph [ref=e155]: Sì, utilizziamo principalmente prodotti biodegradabili e certificati. Utilizziamo prodotti professionali con ph neutro per garantire un'alto grado di pulizia senza rovinare le superfici.
+          - generic [ref=e156]:
+            - button "Cosa include la pulizia di fine cantiere?" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: Cosa include la pulizia di fine cantiere?
+              - generic [ref=e159]: ▶
+            - region:
+              - paragraph [ref=e160]: Comprende la rimozione di polvere e residui di cantiere da tutte le superfici, pulizia profonda dei pavimenti con macchinari, lavaggio infissi, vetri e tapparelle/persiane, igienizzazione bagni e cucine. In pratica, lasciamo lo spazio pronto per essere abitato o arredato.
+          - generic [ref=e161]:
+            - button "Lavorate anche nei weekend o nei festivi?" [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: Lavorate anche nei weekend o nei festivi?
+              - generic [ref=e164]: ▶
+            - region:
+              - paragraph [ref=e165]: Sì, siamo disponibili il sabato. In casi estremamente eccezionali la domenica soprattutto in locali commerciali che non possono essere disturbati durante la settimana. Il prezzo di intervento può subire un sovrapprezzo.
+          - generic [ref=e166]:
+            - button "Se non sono soddisfatto del lavoro, cosa succede?" [ref=e167] [cursor=pointer]:
+              - generic [ref=e168]: Se non sono soddisfatto del lavoro, cosa succede?
+              - generic [ref=e169]: ▶
+            - region:
+              - paragraph [ref=e170]: La tua soddisfazione viene prima di tutto. Se dopo il nostro intervento riscontri problemi, organizziamo un ulteriore intervento per risolvere a spese nostre.
+    - region "Cosa dicono i nostri clienti" [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]: Recensioni
+          - heading "Cosa dicono i nostri clienti" [level=2] [ref=e175]
+          - paragraph [ref=e176]: La soddisfazione dei nostri clienti è la nostra migliore referenza.
+        - generic [ref=e177]:
+          - article [ref=e178]:
+            - 'generic "Valutazione: 5 stelle su 5" [ref=e179]': ★★★★★
+            - paragraph [ref=e180]: "\"Abbiamo chiamato loro per pulire il nostro ufficio dopo una ristrutturazione. Erano sporchi da settimane e in due giorni ci hanno lasciato uno spazio che sembrava nuovo. Ci siamo ritrovati anche delle cose che avevamo perso durante i lavori!\""
+            - generic [ref=e182]:
+              - generic [ref=e183]: Marco R.
+              - generic [ref=e184]: Dirigente d'azienda, Milano
+          - article [ref=e185]:
+            - 'generic "Valutazione: 5 stelle su 5" [ref=e186]': ★★★★★
+            - paragraph [ref=e187]: "\"Fanno le pulizie di casa mia ogni due settimane da un anno. Sono puntuale, non fanno mai storie e il risultato è sempre buono. L'unica cosa che mi piace è che non lasciano odori forti di chimica, cosa importante per me che ho un gatto.\""
+            - generic [ref=e189]:
+              - generic [ref=e190]: Laura B.
+              - generic [ref=e191]: Cliente privata, Monza
+          - article [ref=e192]:
+            - 'generic "Valutazione: 5 stelle su 5" [ref=e193]': ★★★★★
+            - paragraph [ref=e194]: "\"Servizio clienti impeccabile. Avevo bisogno di pulire le finestre di un appartamento al quinto piano e pensavo fosse impossibile. Ci hanno mandato una squadra attrezzata e il risultato è stato incredibile. Li ho già consigliati a due amici.\""
+            - generic [ref=e196]:
+              - generic [ref=e197]: Giuseppe T.
+              - generic [ref=e198]: Proprietario immobiliare, Milano
+          - article [ref=e199]:
+            - 'generic "Valutazione: 5 stelle su 5" [ref=e200]': ★★★★★
+            - paragraph [ref=e201]: "\"Gestiamo una scuola e la pulizia è fondamentale. Da quando lavorano con noi, i genitori hanno notato la differenza. I bagni sono sempre puliti e non ci sono più lamentele dagli insegnanti. Professionali e seri.\""
+            - generic [ref=e203]:
+              - generic [ref=e204]: Francesca M.
+              - generic [ref=e205]: Direttrice scuola privata, Milano
+          - article [ref=e206]:
+            - 'generic "Valutazione: 5 stelle su 5" [ref=e207]': ★★★★★
+            - paragraph [ref=e208]: "\"Ho chiamato loro per una pulizia urgente prima di un'ispezione ASL del mio ristorante. Sono arrivati in giornata, hanno lavorato per 6 ore e l'ispezione è passata senza problemi. Non so cosa avrei fatto senza di loro.\""
+            - generic [ref=e210]:
+              - generic [ref=e211]: Antonio D.
+              - generic [ref=e212]: Ristoratore, Milano
+          - article [ref=e213]:
+            - 'generic "Valutazione: 5 stelle su 5" [ref=e214]': ★★★★★
+            - paragraph [ref=e215]: "\"Il preventivo era onesto, niente costi nascosti. Hanno pulito il mio negozio dopo i lavori di rifacimento del pavimento e hanno tolto macchie che credevo impossibili. Ora ho un contratto mensile e non cambierei mai.\""
+            - generic [ref=e217]:
+              - generic [ref=e218]: Silvia C.
+              - generic [ref=e219]: Negoziante, Monza
+    - region "Pronto a rendere il tuo spazio più pulito?" [ref=e220]:
+      - generic [ref=e221]:
+        - heading "Pronto a rendere il tuo spazio più pulito?" [level=2] [ref=e222]
+        - paragraph [ref=e223]: Contattaci oggi stesso per un preventivo gratuito e senza impegno. Siamo pronti a soddisfare ogni tua esigenza.
+        - link "Richiedi Preventivo Gratuito" [ref=e224] [cursor=pointer]:
+          - /url: contatti.html
+    - region "UNISCITI AL NOSTRO TEAM!" [ref=e225]:
+      - link "Lavora con noi - Clicca per candidarti" [ref=e227] [cursor=pointer]:
+        - /url: lavora-con-noi.html
+        - generic [ref=e228]: 💼
+        - generic [ref=e229]:
+          - heading "UNISCITI AL NOSTRO TEAM!" [level=2] [ref=e230]
+          - paragraph [ref=e231]: Stiamo cercando persone motivate e affidabili. Scopri come lavorare con noi.
+        - generic [ref=e232]: CLICCA QUI →
+  - contentinfo [ref=e233]:
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - link "Homepage" [ref=e237] [cursor=pointer]:
+            - /url: index.html
+            - img "Logo azienda pulizie" [ref=e238]
+          - paragraph [ref=e239]: Servizi di pulizia professionali per privati e aziende. Qualità, affidabilità e rispetto dell'ambiente dal 2018.
+        - navigation "Link rapidi footer" [ref=e240]:
+          - heading "Link Utili" [level=3] [ref=e241]
+          - list [ref=e242]:
+            - listitem [ref=e243]:
+              - link "Servizi" [ref=e244] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e245]:
+              - link "Chi Siamo" [ref=e246] [cursor=pointer]:
+                - /url: index.html#chi-siamo
+            - listitem [ref=e247]:
+              - link "FAQ" [ref=e248] [cursor=pointer]:
+                - /url: index.html#faq
+            - listitem [ref=e249]:
+              - link "Privacy Policy" [ref=e250] [cursor=pointer]:
+                - /url: privacy.html
+            - listitem [ref=e251]:
+              - link "Contatti" [ref=e252] [cursor=pointer]:
+                - /url: contatti.html
+            - listitem [ref=e253]:
+              - link "Lavora con Noi" [ref=e254] [cursor=pointer]:
+                - /url: lavora-con-noi.html
+        - generic [ref=e255]:
+          - heading "Servizi" [level=3] [ref=e256]
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - link "Pulizia Uffici" [ref=e259] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e260]:
+              - link "Pulizia Domestica" [ref=e261] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e262]:
+              - link "Pulizia Finestre" [ref=e263] [cursor=pointer]:
+                - /url: index.html#servizi
+            - listitem [ref=e264]:
+              - link "Pulizia di Fine Cantiere" [ref=e265] [cursor=pointer]:
+                - /url: index.html#servizi
+        - generic [ref=e266]:
+          - heading "Contattaci" [level=3] [ref=e267]
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - generic [ref=e270]: ☎
+              - link "+39 02 95732387" [ref=e271] [cursor=pointer]:
+                - /url: tel:+390295732387
+            - listitem [ref=e272]:
+              - img [ref=e274]
+              - link "+39 335 5877501" [ref=e276] [cursor=pointer]:
+                - /url: tel:+393355877501
+            - listitem [ref=e277]:
+              - img [ref=e279]
+              - link "+39 327 392 2470" [ref=e281] [cursor=pointer]:
+                - /url: tel:+393273922470
+            - listitem [ref=e282]:
+              - generic [ref=e283]: ✉
+              - link "info@newcleanpulizie.it" [ref=e284] [cursor=pointer]:
+                - /url: mailto:info@newcleanpulizie.it
+            - listitem [ref=e285]:
+              - generic [ref=e286]: ⚑
+              - generic [ref=e287]: Via Redipuglia 53, 20066 Melzo (MI)
+      - generic [ref=e288]:
+        - link "Seguici su Instagram" [ref=e289] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e290]
+        - link "Seguici su Facebook" [ref=e292] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e293]
+        - link "Seguici su LinkedIn" [ref=e295] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e296]
+      - paragraph [ref=e299]: © 2026 New Clean Srl. Tutti i diritti riservati. | P.IVA IT 12345678901
+  - link "Contattaci su WhatsApp" [ref=e300] [cursor=pointer]:
+    - /url: https://wa.me/393273922470?text=Ciao%2C%20vorrei%20informazioni%20sui%20vostri%20servizi%20di%20pulizia.
+    - img [ref=e301]
+  - button "Torna in cima alla pagina" [ref=e319] [cursor=pointer]:
+    - img [ref=e320]
+  - dialog "Informativa sui cookie" [ref=e303]:
+    - generic [ref=e304]:
+      - paragraph [ref=e305]:
+        - text: 🍪 Questo sito utilizza cookie tecnici e, se accetti, cookie di profilazione di terze parti per migliorare la tua esperienza. Per maggiori informazioni leggi la nostra
+        - link "Privacy Policy" [ref=e306] [cursor=pointer]:
+          - /url: privacy.html
+        - text: .
+      - generic [ref=e307]:
+        - button "Accetta" [ref=e308] [cursor=pointer]
+        - button "Rifiuta" [ref=e309] [cursor=pointer]

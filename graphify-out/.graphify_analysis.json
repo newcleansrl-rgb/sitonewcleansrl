@@ -1,0 +1,291 @@
+{
+  "communities": {
+    "0": [
+      "brand_assets_dir",
+      "claude",
+      "claude_graphify",
+      "claude_knowledge_graph_graphify",
+      "claude_obiettivo_del_progetto",
+      "claude_performance_velocit\u00e0_priorit\u00e0_assoluta",
+      "claude_ui_ux_design_system",
+      "claude_vincoli_critici_non_violare",
+      "claude_workflow_di_generazione",
+      "contatti_html",
+      "index_html",
+      "lavora_con_noi_html",
+      "privacy_html",
+      "script",
+      "script_animatecounter",
+      "script_clearstate",
+      "script_closemenu",
+      "script_loademailjs",
+      "script_showerror",
+      "script_showvalid",
+      "script_togglemenu",
+      "script_updatescrollspy",
+      "style_css"
+    ],
+    "1": [
+      "graphify_skill_part_a_structural_extraction_for_code_files",
+      "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
+      "graphify_skill_step_1_ensure_graphify_is_installed",
+      "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
+      "graphify_skill_step_2_detect_files",
+      "graphify_skill_step_3_extract_entities_and_relationships",
+      "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "graphify_skill_step_5_label_communities",
+      "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
+      "graphify_skill_what_you_must_do_when_invoked"
+    ],
+    "2": [
+      "graphify_skill",
+      "graphify_skill_for_graphify_add_and_watch",
+      "graphify_skill_for_graphify_query",
+      "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
+      "graphify_skill_for_update_and_cluster_only",
+      "graphify_skill_graphify",
+      "graphify_skill_honesty_rules",
+      "graphify_skill_interpreter_guard_for_subcommands",
+      "graphify_skill_powershell_5_1_vertical_scrolling_stops_working",
+      "graphify_skill_troubleshooting",
+      "graphify_skill_usage",
+      "graphify_skill_what_graphify_is_for"
+    ],
+    "3": [
+      "external_garante_privacy",
+      "external_google_privacy",
+      "page_contatti_html",
+      "page_index_html",
+      "page_lavora_con_noi_html",
+      "page_privacy_html",
+      "service_pulizia_domestica",
+      "service_pulizia_uffici"
+    ],
+    "4": [
+      "contact_form_contatti",
+      "contact_form_lavora_con_noi",
+      "page_2026_06_06t18_06_20_628z_lavora_con_noi",
+      "page_2026_06_06t18_07_10_898z_index",
+      "page_2026_06_06t18_07_32_176z_contatti",
+      "privacy_policy_page",
+      "services_section_index"
+    ],
+    "5": [
+      "contact_page",
+      "cookie_consent_dialog",
+      "faq_section",
+      "main_index",
+      "services_portfolio",
+      "testimonials",
+      "work_methodology"
+    ],
+    "6": [
+      "claude_contatti_html_pagina_contatti",
+      "claude_index_html_homepage",
+      "claude_lavora_con_noi_html_pagina_recruiting",
+      "claude_privacy_html_privacy_policy_gdpr",
+      "claude_struttura_pagine"
+    ],
+    "7": [
+      "page_2026_06_06t18_00_15_833z_process_sopralluogo",
+      "page_2026_06_06t18_00_15_833z_service_domestica",
+      "page_2026_06_06t18_00_15_833z_service_uffici",
+      "page_2026_06_06t18_00_15_833z_website_content"
+    ],
+    "8": [
+      "claude_settings",
+      "claude_settings_hooks",
+      "claude_settings_hooks_pretooluse"
+    ],
+    "9": [
+      "claude_settings_local",
+      "claude_settings_local_permissions",
+      "claude_settings_local_permissions_allow"
+    ],
+    "10": [
+      "about"
+    ],
+    "11": [
+      "brand_assets_10"
+    ],
+    "12": [
+      "brand_assets_11"
+    ],
+    "13": [
+      "faq_section_index"
+    ],
+    "14": [
+      "hero"
+    ],
+    "15": [
+      "logo"
+    ],
+    "16": [
+      "nome_societa_x_homepage"
+    ],
+    "17": [
+      "service_1"
+    ],
+    "18": [
+      "service_2"
+    ],
+    "19": [
+      "service_3"
+    ],
+    "20": [
+      "service_4"
+    ],
+    "21": [
+      "service_5"
+    ],
+    "22": [
+      "skill_graphify_tool_def"
+    ],
+    "23": [
+      "testimonial_1"
+    ]
+  },
+  "cohesion": {
+    "0": 0.1422924901185771,
+    "1": 0.14285714285714285,
+    "2": 0.16666666666666666,
+    "3": 0.32142857142857145,
+    "4": 0.3333333333333333,
+    "5": 0.38095238095238093,
+    "6": 0.4,
+    "7": 0.5,
+    "8": 0.6666666666666666,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0
+  },
+  "gods": [
+    {
+      "id": "graphify_skill_graphify",
+      "label": "/graphify",
+      "degree": 11
+    },
+    {
+      "id": "graphify_skill_what_you_must_do_when_invoked",
+      "label": "What You Must Do When Invoked",
+      "degree": 11
+    },
+    {
+      "id": "main_index",
+      "label": "Homepage / Landing Page",
+      "degree": 6
+    },
+    {
+      "id": "claude_struttura_pagine",
+      "label": "\ud83d\udcc4 Struttura Pagine",
+      "degree": 5
+    },
+    {
+      "id": "page_index_html",
+      "label": "Homepage (index.html)",
+      "degree": 5
+    },
+    {
+      "id": "graphify_skill_step_3_extract_entities_and_relationships",
+      "label": "Step 3 - Extract entities and relationships",
+      "degree": 4
+    },
+    {
+      "id": "page_privacy_html",
+      "label": "Privacy Policy Page (privacy.html)",
+      "degree": 4
+    },
+    {
+      "id": "page_contatti_html",
+      "label": "Contatti Page (contatti.html)",
+      "degree": 3
+    },
+    {
+      "id": "page_2026_06_06t18_00_15_833z_website_content",
+      "label": "New Clean Srl Website Content",
+      "degree": 3
+    },
+    {
+      "id": "contact_page",
+      "label": "Contact & Quote Request Form",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Homepage (index.html)",
+      "target": "Lavora con Noi Page (lavora-con-noi.html)",
+      "source_files": [
+        ".playwright-mcp/page-2026-06-06T18-00-40-882Z.yml",
+        ".playwright-mcp/page-2026-06-06T18-05-25-044Z.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Lavora con Noi Page (lavora-con-noi.html)` unexpectedly reaches hub `Homepage (index.html)`"
+    },
+    {
+      "source": "Contact & Quote Request Form",
+      "target": "Cleaning Services Offerings",
+      "source_files": [
+        ".playwright-mcp/page-2026-06-06T18-06-11-439Z.yml",
+        ".playwright-mcp/page-2026-06-06T18-00-24-427Z.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "Job Application Form",
+      "target": "Contact Request Form",
+      "source_files": [
+        ".playwright-mcp/page-2026-06-06T18-06-20-628Z.yml",
+        ".playwright-mcp/page-2026-06-06T18-07-32-176Z.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "Contatti Page (contatti.html)",
+      "target": "Homepage (index.html)",
+      "source_files": [
+        ".playwright-mcp/page-2026-06-06T18-05-39-256Z.yml",
+        ".playwright-mcp/page-2026-06-06T18-00-40-882Z.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Homepage (index.html)",
+      "target": "Privacy Policy Page (privacy.html)",
+      "source_files": [
+        ".playwright-mcp/page-2026-06-06T18-00-40-882Z.yml",
+        ".playwright-mcp/page-2026-06-06T18-06-42-761Z.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 95504,
+    "output": 17025
+  }
+}
