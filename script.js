@@ -209,6 +209,17 @@
         // Non carica script di terze parti
       });
     }
+
+    // Link "Gestisci Cookie" nel footer - riapre il banner per modificare la preferenza
+    var footerCookieSettings = document.getElementById('footer-cookie-settings');
+    if (footerCookieSettings) {
+      footerCookieSettings.addEventListener('click', function (e) {
+        e.preventDefault();
+        // Rimuove la preferenza salvata per far riapparire il banner
+        localStorage.removeItem('cookie-consent');
+        cookieBanner.classList.add('is-visible');
+      });
+    }
   }
 
 

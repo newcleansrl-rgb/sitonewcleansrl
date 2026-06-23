@@ -1366,6 +1366,12 @@ p {
   color: var(--color-accent-light);
 }
 
+/* Cookie Settings Link nel footer */
+.cookie-settings-link::before {
+  content: '&#127850; ';
+  margin-right: 4px;
+}
+
 .footer__contact li {
   display: flex;
   gap: var(--space-sm);
