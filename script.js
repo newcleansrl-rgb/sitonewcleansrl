@@ -179,11 +179,16 @@
   }
 
   /* ============================================
-     7. COOKIE BANNER
+     7. COOKIE BANNER + PREFERENZE COOKIE
      ============================================ */
   var cookieBanner = document.getElementById('cookie-banner');
   var cookieAccept = document.getElementById('cookie-accept');
   var cookieReject = document.getElementById('cookie-reject');
+  var cookieCustomize = document.getElementById('cookie-customize');
+  var cookiePreferences = document.getElementById('cookie-preferences');
+  var cookiePreferencesOverlay = document.getElementById('cookie-preferences-overlay');
+  var cookiePreferencesClose = document.getElementById('cookie-preferences-close');
+  var cookieSave = document.getElementById('cookie-save');
 
   if (cookieBanner) {
     // Controlla se l'utente ha già fatto una scelta
@@ -197,7 +202,11 @@
     if (cookieAccept) {
       cookieAccept.addEventListener('click', function () {
         localStorage.setItem('cookie-consent', 'accepted');
+        // Salva tutte le categorie come accettate
+        var categories = ['necessary', 'functionality', 'analytics', 'marketing'];
+        localStorage.setItem('cookie-categories', JSON.stringify(categories));
         cookieBanner.classList.remove('is-visible');
+        if (cookiePreferences) cookiePreferences.classList.remove('is-open');
         // Qui puoi caricare script di terze parti (analytics, ecc.)
       });
     }
@@ -205,8 +214,69 @@
     if (cookieReject) {
       cookieReject.addEventListener('click', function () {
         localStorage.setItem('cookie-consent', 'rejected');
+        // Salva solo i necessari
+        localStorage.setItem('cookie-categories', JSON.stringify(['necessary']));
         cookieBanner.classList.remove('is-visible');
+        if (cookiePreferences) cookiePreferences.classList.remove('is-open');
         // Non carica script di terze parti
+      });
+    }
+
+    // Bottono "Personalizza" - apre il pannello preferenze
+    if (cookieCustomize && cookiePreferences) {
+      cookieCustomize.addEventListener('click', function () {
+        cookieBanner.classList.remove('is-visible');
+        cookiePreferences.classList.add('is-open');
+      });
+    }
+
+    // Chiudi pannello preferenze (X)
+    if (cookiePreferencesClose && cookiePreferences) {
+      cookiePreferencesClose.addEventListener('click', function () {
+        cookiePreferences.classList.remove('is-open');
+        // Se non c'è ancora una scelta, riapri il banner
+        if (!localStorage.getItem('cookie-consent')) {
+          setTimeout(function () {
+            cookieBanner.classList.add('is-visible');
+          }, 300);
+        }
+      });
+    }
+
+    // Chiudi pannello preferenze (overlay click)
+    if (cookiePreferencesOverlay && cookiePreferences) {
+      cookiePreferencesOverlay.addEventListener('click', function () {
+        cookiePreferences.classList.remove('is-open');
+        if (!localStorage.getItem('cookie-consent')) {
+          setTimeout(function () {
+            cookieBanner.classList.add('is-visible');
+          }, 300);
+        }
+      });
+    }
+
+    // Salva preferenze personalizzate
+    if (cookieSave && cookiePreferences) {
+      cookieSave.addEventListener('click', function () {
+        var selectedCategories = [];
+        var categories = document.querySelectorAll('.cookie-category input[type="checkbox"]:not(:disabled)');
+        categories.forEach(function (cb) {
+          if (cb.checked) {
+            // Trova il data-category del genitore
+            var cat = cb.closest('.cookie-category').getAttribute('data-category');
+            if (cat) selectedCategories.push(cat);
+          }
+        });
+
+        // I cookie necessari sono sempre inclusi
+        if (!selectedCategories.includes('necessary')) {
+          selectedCategories.unshift('necessary');
+        }
+
+        localStorage.setItem('cookie-consent', 'customized');
+        localStorage.setItem('cookie-categories', JSON.stringify(selectedCategories));
+        cookiePreferences.classList.remove('is-open');
+        // Non riaprire il banner: l'utente ha fatto una scelta esplicita
       });
     }
 
