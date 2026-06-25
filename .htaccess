@@ -1,0 +1,9 @@
+# ============================================
+# REDIRECT HTTP → HTTPS (OVH Web Hosting)
+# ============================================
+
+RewriteEngine On
+
+# Redirect tutto il traffico HTTP verso HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
