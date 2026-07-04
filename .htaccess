@@ -1,13 +1,18 @@
 # ============================================
-# REDIRECT HTTP → HTTPS + NON-WWW → WWW (OVH Web Hosting)
+# REDIRECT → https://www.newcleanpulizie.it (OVH Web Hosting)
 # ============================================
 
 RewriteEngine On
 
-# 1) Redirect tutto il traffico HTTP verso HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# 2) Redirect non-www → www (per evitare duplicate content)
+# 1) HTTP + non-www → https://www.newcleanpulizie.it (redirect diretto in un passo)
+RewriteCond %{HTTPS} off [NC]
 RewriteCond %{HTTP_HOST} ^newcleanpulizie\.it$ [NC]
+RewriteRule ^ https://www.newcleanpulizie.it%{REQUEST_URI} [L,R=301]
+
+# 2) HTTPS + non-www → https://www.newcleanpulizie.it (aggiunge www al traffico sicuro)
+RewriteCond %{HTTP_HOST} ^newcleanpulizie\.it$ [NC]
+RewriteRule ^ https://www.newcleanpulizie.it%{REQUEST_URI} [L,R=301]
+
+# 3) HTTP + www → https://www.newcleanpulizie.it (aggiunge https al traffico www)
+RewriteCond %{HTTPS} off [NC]
 RewriteRule ^ https://www.newcleanpulizie.it%{REQUEST_URI} [L,R=301]
