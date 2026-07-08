@@ -32,8 +32,11 @@
   <!-- EmailJS SDK -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-  <!-- Stile dedicato al form -->
+  <!-- CSS condiviso + Stile dedicato al form -->
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="form-style.css">
+
+
 </head>
 <body>
 
@@ -149,6 +152,65 @@
       <p>Si prega di verificare i campi evidenziati e riprovare.</p>
     </div>
   </main>
+
+  <!-- Cookie Banner (semplificato per form survey) -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Informativa sui cookie">
+    <div class="cookie-banner__content">
+      <p>🍪 Questo sito utilizza cookie tecnici necessari e, con il tuo consenso, cookie analitici Google Analytics 4 per statistiche interne anonime. Per maggiori informazioni leggi la nostra <a href="privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-banner__actions">
+        <button class="btn btn-cookie-accept" id="cookie-accept">Accetta</button>
+        <button class="btn btn-cookie-reject" id="cookie-reject">Rifiuta</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie banner JS inline (form.html usa form-script.js, non script.js) -->
+  <script>
+    // Caricamento GA condizionale — copia locale per form.html
+    function loadGoogleAnalytics() {
+      if (window.__GA_LOADED__) return;
+      var g = document.createElement('script');
+      g.async = true;
+      g.src = 'https://www.googletagmanager.com/gtag/js?id=G-5WKYNCERF5';
+      var firstScript = document.getElementsByTagName('script')[0];
+      firstScript.parentNode.insertBefore(g, firstScript);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-5WKYNCERF5');
+      window.__GA_LOADED__ = true;
+    }
+
+    (function () {
+      var banner = document.getElementById('cookie-banner');
+      var acceptBtn = document.getElementById('cookie-accept');
+      var rejectBtn = document.getElementById('cookie-reject');
+
+      if (!banner) return;
+
+      // Controlla se l'utente ha già fatto una scelta
+      if (!localStorage.getItem('cookie-consent')) {
+        setTimeout(function () { banner.classList.add('is-visible'); }, 1000);
+      }
+
+      if (acceptBtn) {
+        acceptBtn.addEventListener('click', function () {
+          localStorage.setItem('cookie-consent', 'accepted');
+          localStorage.setItem('cookie-categories', JSON.stringify(['necessary', 'functionality', 'analytics', 'marketing']));
+          banner.classList.remove('is-visible');
+          loadGoogleAnalytics();
+        });
+      }
+
+      if (rejectBtn) {
+        rejectBtn.addEventListener('click', function () {
+          localStorage.setItem('cookie-consent', 'rejected');
+          localStorage.setItem('cookie-categories', JSON.stringify(['necessary']));
+          banner.classList.remove('is-visible');
+        });
+      }
+    })();
+  </script>
 
   <script src="form-script.js"></script>
 </body>

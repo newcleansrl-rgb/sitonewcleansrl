@@ -197,6 +197,12 @@
       setTimeout(function () {
         cookieBanner.classList.add('is-visible');
       }, 1000);
+    } else {
+      // Utente ha già dato consenso in precedenza → carica GA se analitici accettati
+      var cats = JSON.parse(localStorage.getItem('cookie-categories') || '[]');
+      if (cats.indexOf !== undefined && cats.indexOf('analytics') !== -1) {
+        loadGoogleAnalytics();
+      }
     }
 
     if (cookieAccept) {
@@ -207,7 +213,8 @@
         localStorage.setItem('cookie-categories', JSON.stringify(categories));
         cookieBanner.classList.remove('is-visible');
         if (cookiePreferences) cookiePreferences.classList.remove('is-open');
-        // Qui puoi caricare script di terze parti (analytics, ecc.)
+        // Carica Google Analytics con consenso
+        loadGoogleAnalytics();
       });
     }
 
@@ -277,6 +284,10 @@
         localStorage.setItem('cookie-categories', JSON.stringify(selectedCategories));
         cookiePreferences.classList.remove('is-open');
         // Non riaprire il banner: l'utente ha fatto una scelta esplicita
+        // Carica Google Analytics se analitici sono stati accettati
+        if (selectedCategories.indexOf !== undefined && selectedCategories.indexOf('analytics') !== -1) {
+          loadGoogleAnalytics();
+        }
       });
     }
 
@@ -576,3 +587,28 @@
   });
 
 })();
+
+/* ============================================
+   GOOGLE ANALYTICS 4 — Caricamento condizionale
+   Viene chiamato solo dopo consenso utente
+   ============================================ */
+function loadGoogleAnalytics() {
+  // Evita doppio caricamento (controllo tramite window per evitare variabili globali conflittuali)
+  if (window.__GA_LOADED__) return;
+
+  // Crea script GA dinamicamente
+  var g = document.createElement('script');
+  g.async = true;
+  g.src = 'https://www.googletagmanager.com/gtag/js?id=G-5WKYNCERF5';
+  var firstScript = document.getElementsByTagName('script')[0];
+  firstScript.parentNode.insertBefore(g, firstScript);
+
+  // Inizializza gtag
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-5WKYNCERF5');
+
+  // Segna come caricato
+  window.__GA_LOADED__ = true;
+}
