@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Servizi di pulizia professionali per uffici, case e ambienti commerciali a Milano. Qualità, affidabilità e prezzi competitivi. Richiedi un preventivo gratuito!">
-  <meta name="keywords" content="pulizie, impresa di pulizie, pulizia uffici, pulizia domestica, pulizia commerciale, pulizia finestre, pulizia fine cantiere, Milano">
+  <meta name="description" content="Servizi di pulizia professionali per uffici, case e ambienti commerciali a Milano, Melzo, Monza e provincia. Pulizia uffici, domestica, finestre, tessuti, fine cantiere e trattamenti pavimenti. Preventivo gratuito!">
   <meta name="robots" content="index, follow">
+  <!-- Geo Tags for Local SEO -->
+  <meta name="geo.region" content="IT-Lombardia">
+  <meta name="geo.placename" content="Melzo">
+  <meta name="geo.position" content="45.4642;9.1900">
+  <meta name="ICBM" content="45.4642, 9.1900">
   <link rel="canonical" href="https://www.newcleanpulizie.it/">
 
   <!-- Open Graph / Facebook -->
@@ -38,14 +42,53 @@
   <!-- CSS principale (non bloccante) -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- JSON-LD Structured Data: LocalBusiness -->
+  <!-- JSON-LD Structured Data: Organization (Brand Identity) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.newcleanpulizie.it/#organization",
+    "name": "New Clean SRL",
+    "alternateName": "New Clean - Servizi di Pulizia Professionali",
+    "url": "https://www.newcleanpulizie.it",
+    "logo": "https://www.newcleanpulizie.it/brand_assets/Nome Società x Homepage.png",
+    "description": "Impresa di pulizie professionale con sede a Melzo (MI), operativa su Milano e provincia dal 1995. Servizi di pulizia per uffici, case, ambienti commerciali.",
+    "foundingDate": "1995",
+    "employeeCount": 35,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Redipuglia 53",
+      "addressLocality": "Melzo",
+      "postalCode": "20066",
+      "addressRegion": "MI",
+      "addressCountry": "IT"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "45.4642",
+      "longitude": "9.1900"
+    },
+    "telephone": "+39-02-95732387",
+    "email": "info@newcleanpulizie.it",
+    "sameAs": [
+      "https://www.instagram.com/newclean_impresa_di_pulizie",
+      "https://www.facebook.com/share/18pMVoogh6/"
+    ],
+    "founder": {
+      "@type": "Organization",
+      "name": "New Clean SRL"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: LocalBusiness (Enhanced for GEO SEO) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://www.newcleanpulizie.it",
-    "name": "New Clean",
-    "description": "Servizi di pulizia professionali per uffici, case e ambienti commerciali a Milano.",
+    "name": "New Clean - Servizi di Pulizia Professionali",
+    "description": "Impresa di pulizie professionale a Melzo (MI) che opera su Milano e provincia. Offriamo servizi di pulizia per uffici, case, ambienti commerciali, finestre, tessuti, fine cantiere e trattamenti pavimenti.",
     "url": "https://www.newcleanpulizie.it",
     "telephone": "+39-02-95732387",
     "email": "info@newcleanpulizie.it",
@@ -62,6 +105,53 @@
       "latitude": "45.4642",
       "longitude": "9.1900"
     },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Melzo",
+        "addressRegion": "MI",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "City",
+        "name": "Milano",
+        "addressRegion": "MI",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "City",
+        "name": "Monza",
+        "addressRegion": "MB",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "City",
+        "name": "Cologno Monzese",
+        "addressRegion": "MI",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "City",
+        "name": "Bergamo",
+        "addressRegion": "BG",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Provincia di Milano",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Provincia di Monza e Brianza",
+        "addressCountry": "IT"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Provincia di Bergamo",
+        "addressCountry": "IT"
+      }
+    ],
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -81,7 +171,473 @@
     "sameAs": [
       "https://www.instagram.com/newclean_impresa_di_pulizie",
       "https://www.facebook.com/share/18pMVoogh6/"
+    ],
+    "founder": {
+      "@type": "Organization",
+      "name": "New Clean SRL"
+    },
+    "foundingDate": "1995",
+    "employeeCount": {
+      "@type": "Number",
+      "value": "35"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto costa un servizio di pulizia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I prezzi variano in base al tipo di servizio, alla superficie e alla frequenza. Tutti i nostri preventivi vengono effettuati solo dopo aver effettuato un sopralluogo gratuito e senza impegno per garantire coerenza e professionalità. Contattaci per una quotazione precisa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Con che frequenza consigliate di pulire gli uffici?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La maggior parte dei nostri clienti per gli uffici sceglie una pulizia giornaliera con pulizie periodiche più mirate. Per spazi più piccoli o con poco traffico, una volta a settimana può bastare. Ti sapremo consigliare meglio in fase di sopralluogo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I prodotti che usate sono sicuri?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, utilizziamo principalmente prodotti biodegradabili e certificati. Utilizziamo prodotti professionali con ph neutro per garantire un'alto grado di pulizia senza rovinare le superfici."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa include la pulizia di fine cantiere?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Comprende la rimozione di polvere e residui di cantiere da tutte le superfici, pulizia profonda dei pavimenti con macchinari, lavaggio infissi, vetri e tapparelle/persiane, igienizzazione bagni e cucine. In pratica, lasciamo lo spazio pronto per essere abitato o arredato."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Lavorate anche nei weekend o nei festivi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, siamo disponibili il sabato. In casi estremamente eccezionali la domenica soprattutto in locali commerciali che non possono essere disturbati durante la settimana. Il prezzo di intervento può subire un sovrapprezzo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Se non sono soddisfatto del lavoro, cosa succede?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La tua soddisfazione viene prima di tutto. Se dopo il nostro intervento riscontri problemi, organizziamo un ulteriore intervento per risolvere a spese nostre."
+        }
+      }
     ]
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: WebSite with SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.newcleanpulizie.it/#website",
+    "url": "https://www.newcleanpulizie.it",
+    "name": "New Clean - Servizi di Pulizia Professionali",
+    "description": "Sito ufficiale New Clean - Impresa di pulizie professionali a Melzo, Milano e provincia",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.newcleanpulizie.it/?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: BreadcrumbList (per navigazione interna SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.newcleanpulizie.it"
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Service (Pulizia Uffici) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Pulizia Uffici",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "New Clean"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Milano"
+    },
+    "description": "Servizio di pulizia professionale per uffici e ambienti di lavoro a Milano e provincia. Aumentiamo produttività e benessere dei dipendenti con ambienti igienizzati e ordinati.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servizi di Pulizia Uffici",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia ordinaria uffici"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia profonda uffici"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Igienizzazione post-lavori"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Service (Pulizia Domestica) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Pulizia Domestica",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "New Clean"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Milano e Monza-Brianza"
+    },
+    "description": "Servizio di pulizia domestica professionale a domicilio: infissi, vetri, tapparelle/persiane, pulizia profonda cucine. Disponibile su Melzo, Milano, Monza e provincia.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pulizia Domestica",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia infissi e vetri"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia profonda cucine"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Lavaggio tapparelle e persiane"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Service (Pulizia Finestre) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Pulizia Finestre",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "New Clean"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Milano"
+    },
+    "description": "Pulizia finestre professionale con attrezzature per ogni altezza. Vetri cristallini per case e uffici a Milano, Melzo, Monza e provincia.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pulizia Finestre",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia finestre residenziali"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia vetri commerciali"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia finestre alte e facciate"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Service (Pulizia Tessuti) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Pulizia Tessuti",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "New Clean"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Milano e Monza-Brianza"
+    },
+    "description": "Lavaggio e igienizzazione sedie, arredi, tappeti e divani a domicilio. Servizio completo su Melzo, Milano, Monza e provincia.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pulizia Tessuti e Arredi",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Lavaggio divani"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Igienizzazione tappeti"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Lavaggio sedie ufficio"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Service (Pulizia Fine Cantiere) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Pulizia Fine Cantiere",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "New Clean"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Milano"
+    },
+    "description": "Pulizia professionale post-operam e fine cantiere a Milano. Rimozione polvere e residui, pulizia profonda pavimenti, infissi, vetri. Spazi pronti all'uso.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pulizia Fine Cantiere",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia post-ristrutturazione"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Rimozione residui edili"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pulizia profonda pavimenti"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Service (Trattamenti Pavimenti) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Trattamenti Pavimenti",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "New Clean"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Milano e Monza-Brianza"
+    },
+    "description": "Trattamenti, lucidature, incerature e sigillature su misura per ogni pavimento. Pavimenti professionali rigenerati a domicilio o in azienda.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Trattamenti Pavimenti",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Lucidatura pavimenti"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Inceratura pavimenti"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Sigillatura pavimenti"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: AggregateRating (basato su testimonianze) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.newcleanpulizie.it",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "6",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Structured Data: Article (per sezione FAQ - GEO SEO content) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Domande Frequenti sui Servizi di Pulizia Professionale - New Clean Milano",
+    "description": "Risposte alle domande più comuni sui servizi di pulizia per uffici, case e ambienti commerciali a Milano e provincia.",
+    "author": {
+      "@type": "Organization",
+      "name": "New Clean SRL"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "New Clean - Servizi di Pulizia Professionali",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.newcleanpulizie.it/brand_assets/Nome Società x Homepage.png"
+      }
+    },
+    "datePublished": "2025-01-01",
+    "dateModified": "2026-07-23",
+    "mainEntity": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un servizio di pulizia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I prezzi variano in base al tipo di servizio, alla superficie e alla frequenza. Tutti i nostri preventivi vengono effettuati solo dopo aver effettuato un sopralluogo gratuito e senza impegno per garantire coerenza e professionalità. Contattaci per una quotazione precisa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con che frequenza consigliate di pulire gli uffici?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La maggior parte dei nostri clienti per gli uffici sceglie una pulizia giornaliera con pulizie periodiche più mirate. Per spazi più piccoli o con poco traffico, una volta a settimana può bastare. Ti sapremo consigliare meglio in fase di sopralluogo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I prodotti che usate sono sicuri?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, utilizziamo principalmente prodotti biodegradabili e certificati. Utilizziamo prodotti professionali con ph neutro per garantire un'alto grado di pulizia senza rovinare le superfici."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cosa include la pulizia di fine cantiere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprende la rimozione di polvere e residui di cantiere da tutte le superfici, pulizia profonda dei pavimenti con macchinari, lavaggio infissi, vetri e tapparelle/persiane, igienizzazione bagni e cucine. In pratica, lasciamo lo spazio pronto per essere abitato o arredato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lavorate anche nei weekend o nei festivi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, siamo disponibili il sabato. In casi estremamente eccezionali la domenica soprattutto in locali commerciali che non possono essere disturbati durante la settimana. Il prezzo di intervento può subire un sovrapprezzo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Se non sono soddisfatto del lavoro, cosa succede?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La tua soddisfazione viene prima di tutto. Se dopo il nostro intervento riscontri problemi, organizziamo un ulteriore intervento per risolvere a spese nostre."
+          }
+        }
+      ]
+    }
   }
   </script>
 
@@ -497,7 +1053,7 @@
         <!-- Testimonial 2 -->
         <article class="testimonial-card fade-in">
           <div class="testimonial-card__stars" aria-label="Valutazione: 5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-card__text">"Fanno le pulizie di casa mia ogni due settimane da un anno. Sono puntuale, non fanno mai storie e il risultato è sempre buono. L'unica cosa che mi piace è che non lasciano odori forti di chimica, cosa importante per me che ho un gatto."</p>
+          <p class="testimonial-card__text">"Fanno le pulizie di casa mia ogni mese da un anno. Sono puntuali, non fanno mai storie e il risultato è sempre buono. Una cosa che mi piace è che non lasciano odori forti di chimica, cosa importante per me che ho un gatto."</p>
           <div class="testimonial-card__author">
             <img src="brand_assets/testimonial-2.webp" alt="" width="48" height="48" loading="lazy" decoding="async" class="testimonial-card__avatar" role="presentation">
             <div>
@@ -757,7 +1313,6 @@
             <li><a href="javascript:void(0)" class="cookie-settings-link" id="footer-cookie-settings">Gestisci Cookie 🍪</a></li>
             <li><a href="contatti.html">Contatti</a></li>
             <li><a href="lavora-con-noi.html">Lavora con Noi</a></li>
-            <li><a href="form.html">Recensioni</a></li>
           </ul>
         </nav>
 
