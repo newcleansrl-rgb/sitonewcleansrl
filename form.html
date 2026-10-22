@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lascia una recensione sulla tua esperienza con i servizi di pulizia New Clean. La tua opinione ci aiuta a migliorare.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://www.newcleanpulizie.it/form.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.newcleanpulizie.it/form.html">
+  <meta property="og:title" content="Lascia una Recensione - New Clean">
+  <meta property="og:description" content="Condividi la tua esperienza con i nostri servizi di pulizia. La tua opinione conta!">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lascia una Recensione - New Clean">
+  <meta name="twitter:description" content="Condividi la tua esperienza con i nostri servizi di pulizia. La tua opinione conta!">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="brand_assets/Nome Società x Homepage.png">
+  <link rel="apple-touch-icon" href="brand_assets/Nome Società x Homepage.png">
+
+  <title>Lascia una Recensione - New Clean</title>
+
+  <!-- Google Fonts: Inter (solo titoli) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- EmailJS SDK v4 (defer: non blocca il rendering) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+
+  <!-- CSS condiviso + Stile dedicato al form -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form-style.css">
+
+
+</head>
+<body>
+
+  <main class="form-wrapper">
+    <header class="form-header">
+      <h1>Grazie per aver scelto i nostri servizi di pulizia!</h1>
+      <p>
+        Ci aiuta a migliorare? Compila il breve sondaggio qui sotto.
+        La tua opinione è molto importante per noi.
+      </p>
+    </header>
+
+    <form id="surveyForm" novalidate>
+
+      <!-- ====== SEZIONE 1 — Valutazione multi-criterio (KPI) ====== -->
+      <section class="form-section">
+        <h2>1. Valuta i nostri servizi</h2>
+        <p class="section-hint">Per ogni domanda, scegli un punteggio da 1 a 10.</p>
+
+        <!-- Legenda scala di valutazione -->
+        <div id="ratingLegend" class="rating-legend"></div>
+
+        <!-- Le 9 domande vengono generate dinamicamente via JS -->
+        <div id="ratingQuestions"></div>
+
+        <span id="ratingError" class="error-msg" hidden>Inserisci un punteggio per tutte le domande (da 1 a 10).</span>
+      </section>
+
+      <!-- ====== SEZIONE 2 — Box Recensioni ====== -->
+      <section class="form-section">
+        <h2>2. Lascia una recensione</h2>
+        <p class="section-hint">
+          Racconta la tua esperienza. Il testo deve contenere almeno
+          <strong>100 caratteri</strong> per essere pubblicato come recensione.
+        </p>
+
+        <div class="textarea-wrapper">
+          <label for="reviewText" class="sr-only">La tua recensione</label>
+          <textarea
+            id="reviewText"
+            name="review"
+            rows="6"
+            maxlength="1000"
+            placeholder="Scrivi qui la tua esperienza con il nostro servizio di pulizia…"
+            aria-describedby="charCount reviewError"
+          ></textarea>
+        </div>
+
+        <div class="char-counter">
+          Caratteri: <span id="charCount">0</span> / 100 (minimo) — max 1000
+        </div>
+
+        <span id="reviewError" class="error-msg" hidden>
+          La recensione deve contenere almeno 100 caratteri.
+        </span>
+      </section>
+
+      <!-- ====== SEZIONE 3 — Consenso GDPR ====== -->
+      <section class="form-section">
+        <h2>3. Consenso alla pubblicazione</h2>
+
+        <label for="consentCheckbox" class="checkbox-label">
+          <input
+            type="checkbox"
+            id="consentCheckbox"
+            name="consent"
+            aria-describedby="consentHint"
+          />
+          <span class="checkmark"></span>
+          <span class="checkbox-text">Acconsento alla pubblicazione di questa recensione sul mio sito web.</span>
+        </label>
+
+        <p id="consentHint" class="hint-text">
+          Se non acconsenti, la tua recensione verrà utilizzata solo per uso interno e non sarà pubblicata.
+        </p>
+
+        <span id="consentError" class="error-msg" hidden>
+          Devi acconsentire alla pubblicazione se desideri inviare la recensione.
+        </span>
+      </section>
+
+      <!-- ====== SEZIONE 4 — Dati Azienda (obbligatori) ====== -->
+      <section class="form-section">
+        <h2>4. Dati dell'azienda</h2>
+
+        <div class="input-group">
+          <label for="clientName">Nome Azienda <span class="required">*</span></label>
+          <input type="text" id="clientName" name="clientName" placeholder="Es. Rossi Cleaning Srl" required />
+        </div>
+
+        <div class="input-group">
+          <label for="clientEmail">Indirizzo Email <span class="required">*</span></label>
+          <input type="email" id="clientEmail" name="clientEmail" placeholder="info@azienda.it" required />
+        </div>
+      </section>
+
+      <!-- ====== SEZIONE 5 — Consenso Privacy Policy (obbligatorio) ====== -->
+      <section class="form-section">
+        <h2>5. Privacy Policy <span class="required">*</span></h2>
+
+        <label for="privacyConsentCheckbox" class="checkbox-label">
+          <input
+            type="checkbox"
+            id="privacyConsentCheckbox"
+            name="privacyConsent"
+            aria-required="true"
+            aria-describedby="privacyConsentHint"
+          />
+          <span class="checkmark"></span>
+          <span class="checkbox-text">Ho letto l'<a href="privacy.html" target="_blank" rel="noopener">Informativa&nbsp;Privacy</a> ai sensi del Reg. UE 2016/679 (GDPR) e acconsento al trattamento dei miei dati per la gestione di questa valutazione.</span>
+        </label>
+
+        <p id="privacyConsentHint" class="hint-text">
+          Il consenso è obbligatorio: senza questa spunta il modulo non può essere inviato.
+        </p>
+
+        <span id="privacyConsentError" class="error-msg" hidden>
+          Per inviare la valutazione devi accettare la Privacy Policy.
+        </span>
+      </section>
+
+      <!-- ====== BOTTONE INVIO (abilitato solo con consenso accettato) ====== -->
+      <button type="submit" class="btn-submit" disabled>Invia Valutazione</button>
+      <p id="submitHint" class="hint-text submit-hint">Spunta l'accettazione della Privacy Policy per abilitare l'invio.</p>
+      <noscript>
+        <p class="hint-text submit-hint">Il pulsante di invio richiede JavaScript (serve a verificare l'accettazione della Privacy Policy). In alternativa scrivi la tua valutazione a <a href="mailto:info@newcleanpulizie.it">info@newcleanpulizie.it</a>.</p>
+      </noscript>
+    </form>
+
+    <!-- ====== MESSAGGIO DI SUCCESSO ====== -->
+    <div id="successMessage" class="success-message" hidden>
+      <h2>✅ Grazie per il tuo feedback!</h2>
+      <p>La tua valutazione è stata registrata con successo.</p>
+    </div>
+
+    <!-- ====== MESSAGGIO DI ERRORE GENERALE ====== -->
+    <div id="generalError" class="error-message" hidden>
+      <h2>⚠️ Si è verificato un errore.</h2>
+      <p>Si prega di verificare i campi evidenziati e riprovare.</p>
+    </div>
+  </main>
+
+  <!-- Cookie Banner (semplificato per form survey) -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Informativa sui cookie">
+    <div class="cookie-banner__content">
+      <p>🍪 Questo sito utilizza cookie tecnici necessari e, con il tuo consenso, cookie analitici Google Analytics 4 per statistiche interne anonime. Per maggiori informazioni leggi la nostra <a href="privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-banner__actions">
+        <button class="btn btn-cookie-accept" id="cookie-accept">Accetta</button>
+        <button class="btn btn-cookie-reject" id="cookie-reject">Rifiuta</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie banner JS inline (form.html usa form-script.js, non script.js) -->
+  <script>
+    // Caricamento GA condizionale — copia locale per form.html
+    function loadGoogleAnalytics() {
+      if (window.__GA_LOADED__) return;
+      var g = document.createElement('script');
+      g.async = true;
+      g.src = 'https://www.googletagmanager.com/gtag/js?id=G-5WKYNCERF5';
+      var firstScript = document.getElementsByTagName('script')[0];
+      firstScript.parentNode.insertBefore(g, firstScript);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-5WKYNCERF5');
+      window.__GA_LOADED__ = true;
+    }
+
+    (function () {
+      var banner = document.getElementById('cookie-banner');
+      var acceptBtn = document.getElementById('cookie-accept');
+      var rejectBtn = document.getElementById('cookie-reject');
+
+      if (!banner) return;
+
+      // Controlla se l'utente ha già fatto una scelta
+      if (!localStorage.getItem('cookie-consent')) {
+        setTimeout(function () { banner.classList.add('is-visible'); }, 1000);
+      }
+
+      if (acceptBtn) {
+        acceptBtn.addEventListener('click', function () {
+          localStorage.setItem('cookie-consent', 'accepted');
+          localStorage.setItem('cookie-categories', JSON.stringify(['necessary', 'functionality', 'analytics', 'marketing']));
+          banner.classList.remove('is-visible');
+          loadGoogleAnalytics();
+        });
+      }
+
+      if (rejectBtn) {
+        rejectBtn.addEventListener('click', function () {
+          localStorage.setItem('cookie-consent', 'rejected');
+          localStorage.setItem('cookie-categories', JSON.stringify(['necessary']));
+          banner.classList.remove('is-visible');
+        });
+      }
+    })();
+  </script>
+
+  <script src="form-script.js" defer></script>
+</body>
+</html>
