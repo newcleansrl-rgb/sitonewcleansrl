@@ -2589,7 +2589,9 @@ select.form-input {
   flex: 1;
 }
 
-.cookie-policy-modal__content h1 {
+/* Titolo della modale: h2 (figlio diretto) per non avere due h1 nella pagina.
+   Il selettore usa ">" cosi' gli h2 interni a .cp-section restano sullo stile di .cp-section h2. */
+.cookie-policy-modal__content > h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
   color: var(--color-text);
   margin-bottom: var(--space-sm);
