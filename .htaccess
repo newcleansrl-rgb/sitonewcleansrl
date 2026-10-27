@@ -16,3 +16,36 @@ RewriteRule ^ https://www.newcleanpulizie.it%{REQUEST_URI} [L,R=301]
 # 3) HTTP + www → https://www.newcleanpulizie.it (aggiunge https al traffico www)
 RewriteCond %{HTTPS} off [NC]
 RewriteRule ^ https://www.newcleanpulizie.it%{REQUEST_URI} [L,R=301]
+
+# ============================================
+# SICUREZZA - file di lavoro non raggiungibili
+# Sul server esiste fisicamente la cartella .git (oggi responde 403 solo
+# per la regola di default di OVH). Con questa riga risponde 404 per
+# regola nostra, quindi non dipende dalla configurazione del hosting.
+# ============================================
+RedirectMatch 404 /\.(?:git|claude|playwright-mcp|env)
+
+# ============================================
+# COMPRESSIONE (gzip)
+# style.css passa da ~64 kB a ~12 kB: migliora LCP.
+# Se il modulo non e' attivo il blocco viene ignorato, nessun errore.
+# ============================================
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# ============================================
+# CACHE - gli asset statici non cambiano ad ogni visita
+# HTML sempre fresco (0 secondi) per non mostrare pagine vecchie.
+# Se mod_expires non e' attivo il blocco viene ignorato, nessun errore.
+# ============================================
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 30 days"
+  ExpiresByType application/javascript "access plus 30 days"
+  ExpiresByType image/webp "access plus 12 months"
+  ExpiresByType image/png "access plus 12 months"
+  ExpiresByType image/jpeg "access plus 12 months"
+  ExpiresByType text/plain "access plus 1 day"
+</IfModule>
